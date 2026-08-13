@@ -1,0 +1,39 @@
+[
+  {
+    "id": "basics-101",
+    "moduleId": "office-basics",
+    "title": "The Microsoft 365 Interface & Ribbon",
+    "description": "Understand tabs, commands, quick access toolbar, and cloud auto-save concepts across Office apps.",
+    "difficulty": "Beginner",
+    "durationMinutes": 8,
+    "xpReward": 40,
+    "objectives": [
+      "Understand the Ribbon layout shared across Word, Excel, and PowerPoint",
+      "Use Quick Access Toolbar & Search bar",
+      "Enable AutoSave for OneDrive cloud storage"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Unified Ribbon Design",
+        "content": "All Microsoft 365 applications use a standard Ribbon design divided into Tabs (Home, Insert, Layout), Groups, and Commands.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-b101-1",
+        "type": "multiple-choice",
+        "question": "What is the primary benefit of enabling AutoSave in Microsoft 365?",
+        "options": [
+          "Changes are saved continuously in real-time to OneDrive cloud storage",
+          "It makes files password-protected automatically",
+          "It compresses images by 90%",
+          "It automatically emails copies to your manager"
+        ],
+        "correctAnswer": 0,
+        "explanation": "AutoSave continuously saves your edits to OneDrive or SharePoint so you never lose work."
+      }
+    ]
+  }
+]

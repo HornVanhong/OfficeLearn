@@ -1,0 +1,39 @@
+[
+  {
+    "id": "access-101",
+    "moduleId": "access",
+    "title": "Database Tables & Primary Keys",
+    "description": "Structure tables, define field types, assign primary keys, and build visual queries.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 12,
+    "xpReward": 60,
+    "objectives": [
+      "Define tables, fields, and records",
+      "Assign unique Primary Keys",
+      "Run basic Select Queries"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "What is a Relational Database?",
+        "content": "Unlike spreadsheets, databases link multiple tables of records using relational keys to eliminate redundant data.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-a101-1",
+        "type": "multiple-choice",
+        "question": "What is the purpose of a Primary Key in an Access table?",
+        "options": [
+          "Uniquely identify every record in the table without duplicates",
+          "Encrypt the database file",
+          "Sort text alphabetically automatically",
+          "Format currency values"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A Primary Key ensures every row in a database table can be uniquely referenced."
+      }
+    ]
+  }
+]

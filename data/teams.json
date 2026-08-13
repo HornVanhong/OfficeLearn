@@ -1,0 +1,39 @@
+[
+  {
+    "id": "teams-101",
+    "moduleId": "teams",
+    "title": "Channels, Chat & Video Meetings",
+    "description": "Master channel conversations, file sharing, meeting controls, and status settings.",
+    "difficulty": "Beginner",
+    "durationMinutes": 8,
+    "xpReward": 40,
+    "objectives": [
+      "Navigate Channels vs 1-on-1 Chats",
+      "Share files with co-authoring",
+      "Use Video call controls (mute, camera, screen share)"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Welcome to Teams",
+        "content": "Microsoft Teams centralizes group messaging, video calling, and document co-editing.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-t101-1",
+        "type": "multiple-choice",
+        "question": "What is the difference between a Channel post and a Direct Chat in Teams?",
+        "options": [
+          "Channel posts are visible to all team members, while Direct Chats are private to specific participants",
+          "Direct Chats are recorded automatically",
+          "Channel posts can only contain text without attachments",
+          "Direct Chats require scheduling 24 hours in advance"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Channels are public discussion spaces for a team project, whereas Direct Chats are private 1-on-1 or group conversations."
+      }
+    ]
+  }
+]

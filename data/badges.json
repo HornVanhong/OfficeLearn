@@ -1,0 +1,58 @@
+[
+  {
+    "id": "welcome-explorer",
+    "title": "Office Explorer",
+    "description": "Began your learning journey on OfficeLearn!",
+    "icon": "Compass",
+    "app": "global",
+    "criteriaXP": 0
+  },
+  {
+    "id": "xp-100",
+    "title": "Rising Star",
+    "description": "Earned your first 100 XP points across Office lessons.",
+    "icon": "Sparkles",
+    "app": "global",
+    "criteriaXP": 100
+  },
+  {
+    "id": "word-beginner",
+    "title": "Word Beginner",
+    "description": "Completed your first interactive Microsoft Word formatting lesson.",
+    "icon": "FileText",
+    "app": "word",
+    "criteriaXP": 50
+  },
+  {
+    "id": "excel-master",
+    "title": "Excel Formula Master",
+    "description": "Successfully evaluated formulas and built cell spreadsheets in Excel.",
+    "icon": "Table",
+    "app": "excel",
+    "criteriaXP": 100
+  },
+  {
+    "id": "ppt-designer",
+    "title": "PowerPoint Designer",
+    "description": "Designed slide decks, applied visual themes, and created presentation visual frames.",
+    "icon": "Presentation",
+    "app": "powerpoint",
+    "criteriaXP": 100
+  },
+  {
+    "id": "shortcut-ninja",
+    "title": "Shortcut Ninja",
+    "description": "Achieved a high score of 5+ in the Keyboard Shortcut Trainer arcade!",
+    "icon": "Zap",
+    "app": "global",
+    "criteriaXP": 150
+  },
+  {
+    "id": "office-expert",
+    "title": "Office Expert",
+    "description": "Reached 1,000 Total XP points across all Microsoft Office modules!",
+    "icon": "Trophy",
+    "app": "global",
+    "criteriaXP": 1000
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "onenote-101",
+    "moduleId": "onenote",
+    "title": "Digital Notebook Organization",
+    "description": "Organize notes into Sections, Pages, Tags, and shared team notebooks.",
+    "difficulty": "Beginner",
+    "durationMinutes": 8,
+    "xpReward": 40,
+    "objectives": [
+      "Create Section tabs and Pages",
+      "Use To-Do & Important visual tags",
+      "Co-edit notes in real-time"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "OneNote Hierarchy",
+        "content": "OneNote mimics a physical binder with Notebooks -> Sections (tabs) -> Pages.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-on101-1",
+        "type": "multiple-choice",
+        "question": "How is content structured in Microsoft OneNote?",
+        "options": [
+          "Notebooks -> Sections -> Pages",
+          "Folders -> Documents -> Lines",
+          "Workbooks -> Worksheets -> Cells",
+          "Decks -> Slides -> Shapes"
+        ],
+        "correctAnswer": 0,
+        "explanation": "OneNote follows the traditional ring-binder metaphor: Notebooks contain colored Section tabs, which hold individual Pages."
+      }
+    ]
+  }
+]

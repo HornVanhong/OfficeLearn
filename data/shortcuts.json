@@ -1,0 +1,86 @@
+[
+  {
+    "id": "sc-w1",
+    "app": "word",
+    "description": "Make selected text Bold",
+    "keys": ["Ctrl", "B"],
+    "category": "formatting"
+  },
+  {
+    "id": "sc-w2",
+    "app": "word",
+    "description": "Make selected text Italic",
+    "keys": ["Ctrl", "I"],
+    "category": "formatting"
+  },
+  {
+    "id": "sc-w3",
+    "app": "word",
+    "description": "Underline selected text",
+    "keys": ["Ctrl", "U"],
+    "category": "formatting"
+  },
+  {
+    "id": "sc-w4",
+    "app": "word",
+    "description": "Center align paragraph",
+    "keys": ["Ctrl", "E"],
+    "category": "formatting"
+  },
+  {
+    "id": "sc-e1",
+    "app": "excel",
+    "description": "Insert AutoSum formula",
+    "keys": ["Alt", "="],
+    "category": "formulas"
+  },
+  {
+    "id": "sc-e2",
+    "app": "excel",
+    "description": "Edit active cell",
+    "keys": ["F2"],
+    "category": "editing"
+  },
+  {
+    "id": "sc-e3",
+    "app": "excel",
+    "description": "Format as Currency ($)",
+    "keys": ["Ctrl", "Shift", "$"],
+    "category": "formatting"
+  },
+  {
+    "id": "sc-p1",
+    "app": "powerpoint",
+    "description": "Start slideshow presentation",
+    "keys": ["F5"],
+    "category": "navigation"
+  },
+  {
+    "id": "sc-p2",
+    "app": "powerpoint",
+    "description": "Insert new slide",
+    "keys": ["Ctrl", "M"],
+    "category": "editing"
+  },
+  {
+    "id": "sc-p3",
+    "app": "powerpoint",
+    "description": "Duplicate selected slide",
+    "keys": ["Ctrl", "D"],
+    "category": "editing"
+  },
+  {
+    "id": "sc-o1",
+    "app": "outlook",
+    "description": "Compose new email message",
+    "keys": ["Ctrl", "N"],
+    "category": "file"
+  },
+  {
+    "id": "sc-o2",
+    "app": "outlook",
+    "description": "Send email draft",
+    "keys": ["Alt", "S"],
+    "category": "file"
+  }
+]

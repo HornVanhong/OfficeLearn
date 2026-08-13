@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ch-word-resume",
+    "app": "word",
+    "title": "Create a Professional Resume",
+    "description": "Format a executive resume template: center header name, apply Bold to section titles, and format work history into bulleted lists.",
+    "difficulty": "Beginner",
+    "xpReward": 100,
+    "checklist": [
+      { "id": "t1", "text": "Apply Bold to candidate name 'Alex Morgan'" },
+      { "id": "t2", "text": "Center align contact header details" },
+      { "id": "t3", "text": "Apply Heading 1 style to 'Work Experience'" },
+      { "id": "t4", "text": "Format job duties into bullet points" }
+    ]
+  },
+  {
+    "id": "ch-excel-budget",
+    "app": "excel",
+    "title": "Monthly Household Budget",
+    "description": "Calculate total monthly income and expenses using the =SUM formula, format values as Currency ($), and highlight net savings.",
+    "difficulty": "Intermediate",
+    "xpReward": 120,
+    "checklist": [
+      { "id": "t1", "text": "Enter monthly rent expense of $1,400" },
+      { "id": "t2", "text": "Calculate Total Income using =SUM(B2:B4)" },
+      { "id": "t3", "text": "Calculate Total Expenses using =SUM(B6:B10)" },
+      { "id": "t4", "text": "Format total cells as Currency ($)" }
+    ]
+  },
+  {
+    "id": "ch-ppt-pitch",
+    "app": "powerpoint",
+    "title": "Company Presentation Pitch Deck",
+    "description": "Design a 3-slide pitch deck: choose an executive blue theme, add a title slide, insert an image placeholder, and apply slide transitions.",
+    "difficulty": "Intermediate",
+    "xpReward": 110,
+    "checklist": [
+      { "id": "t1", "text": "Set title slide text to 'OfficeLearn Q3 Pitch'" },
+      { "id": "t2", "text": "Add 2 new content slides" },
+      { "id": "t3", "text": "Apply 'Dark Sapphire' slide theme" },
+      { "id": "t4", "text": "Preview slide transition effect" }
+    ]
+  },
+  {
+    "id": "ch-outlook-meeting",
+    "app": "outlook",
+    "title": "Schedule Department Sync Meeting",
+    "description": "Draft a department sync email, invite 3 team members to a Teams video call, and configure an Out-of-Office auto responder.",
+    "difficulty": "Beginner",
+    "xpReward": 90,
+    "checklist": [
+      { "id": "t1", "text": "Compose meeting invite titled 'Weekly Marketing Sync'" },
+      { "id": "t2", "text": "Add attendees team@company.com" },
+      { "id": "t3", "text": "Toggle Microsoft Teams Video Meeting option" }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "office-basics",
+    "title": "Office Basics",
+    "subtitle": "Essential Ribbon & Cloud Concepts",
+    "description": "Master navigation, file saving, OneDrive cloud sync, and the unified Microsoft 365 Ribbon interface.",
+    "color": "bg-teal-600",
+    "accentColor": "#008272",
+    "iconName": "LayoutGrid",
+    "totalLessons": 3,
+    "estimatedHours": "0.5 hrs",
+    "category": "Core"
+  },
+  {
+    "id": "word",
+    "title": "Microsoft Word",
+    "subtitle": "Document Processing & Styling",
+    "description": "Learn character formatting, paragraph alignment, bulleted lists, tables, headers, and business layout.",
+    "color": "bg-blue-600",
+    "accentColor": "#185ABD",
+    "iconName": "FileText",
+    "totalLessons": 4,
+    "estimatedHours": "1.0 hrs",
+    "category": "Productivity"
+  },
+  {
+    "id": "excel",
+    "title": "Microsoft Excel",
+    "subtitle": "Spreadsheets & Data Analysis",
+    "description": "Master cell grid navigation, formula calculations (=SUM, =AVERAGE), visual charts, and formatting.",
+    "color": "bg-emerald-600",
+    "accentColor": "#107C41",
+    "iconName": "Table",
+    "totalLessons": 4,
+    "estimatedHours": "1.5 hrs",
+    "category": "Data"
+  },
+  {
+    "id": "powerpoint",
+    "title": "Microsoft PowerPoint",
+    "subtitle": "Presentations & Visual Design",
+    "description": "Create stunning slide decks with text boxes, image frames, visual themes, transitions, and presenter mode.",
+    "color": "bg-orange-600",
+    "accentColor": "#C43E1C",
+    "iconName": "Presentation",
+    "totalLessons": 3,
+    "estimatedHours": "1.0 hrs",
+    "category": "Productivity"
+  },
+  {
+    "id": "outlook",
+    "title": "Microsoft Outlook",
+    "subtitle": "Email & Calendar Scheduling",
+    "description": "Organize your inbox with filters, schedule calendar sync meetings, and automate email sorting rules.",
+    "color": "bg-sky-600",
+    "accentColor": "#0078D4",
+    "iconName": "Mail",
+    "totalLessons": 3,
+    "estimatedHours": "0.5 hrs",
+    "category": "Productivity"
+  },
+  {
+    "id": "access",
+    "title": "Microsoft Access",
+    "subtitle": "Relational Database Management",
+    "description": "Understand database tables, primary keys, records, visual query building, and data entry forms.",
+    "color": "bg-rose-700",
+    "accentColor": "#A4373A",
+    "iconName": "Database",
+    "totalLessons": 2,
+    "estimatedHours": "1.0 hrs",
+    "category": "Data"
+  },
+  {
+    "id": "onenote",
+    "title": "Microsoft OneNote",
+    "subtitle": "Digital Notebooks & Idea Capture",
+    "description": "Structure personal and team notes across notebooks, section tabs, pages, and interactive checklist tags.",
+    "color": "bg-purple-600",
+    "accentColor": "#7719AA",
+    "iconName": "BookOpen",
+    "totalLessons": 2,
+    "estimatedHours": "0.5 hrs",
+    "category": "Productivity"
+  },
+  {
+    "id": "teams",
+    "title": "Microsoft Teams",
+    "subtitle": "Team Chat & Video Collaboration",
+    "description": "Collaborate efficiently with channel conversations, document co-authoring, and meeting controls.",
+    "color": "bg-indigo-600",
+    "accentColor": "#464EB8",
+    "iconName": "Users",
+    "totalLessons": 2,
+    "estimatedHours": "0.5 hrs",
+    "category": "Collaboration"
+  }
+]

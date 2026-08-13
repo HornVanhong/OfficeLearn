@@ -1,0 +1,34 @@
+[
+  {
+    "id": "outlook-101",
+    "moduleId": "outlook",
+    "title": "Email Management & Meeting Invites",
+    "description": "Compose emails, add attachments, schedule calendar sync meetings, and set inbox sorting rules.",
+    "difficulty": "Beginner",
+    "durationMinutes": 10,
+    "xpReward": 50,
+    "objectives": [
+      "Compose formal business emails with CC/BCC",
+      "Schedule calendar meetings with attendees and Teams links",
+      "Create automated inbox rules"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Outlook Mail & Calendar Integration",
+        "content": "Outlook combines email messaging with calendar scheduling and contact management in a single workspace.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-o101-1",
+        "type": "multiple-choice",
+        "question": "What does BCC stand for in email composition?",
+        "options": ["Blind Carbon Copy", "Business Contact Communication", "Basic Courtesy Copy", "Binary Code Channels"],
+        "correctAnswer": 0,
+        "explanation": "Blind Carbon Copy hides the recipient's email address from other message recipients."
+      }
+    ]
+  }
+]

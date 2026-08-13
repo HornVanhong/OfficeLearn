@@ -1,0 +1,113 @@
+[
+  {
+    "id": "word-101",
+    "moduleId": "word",
+    "title": "Formatting Text in Word",
+    "description": "Learn how to format text styles, toggle Bold, Italic, Underline, and align document paragraphs.",
+    "difficulty": "Beginner",
+    "durationMinutes": 10,
+    "xpReward": 50,
+    "objectives": [
+      "Identify ribbon text formatting tools",
+      "Apply Bold, Italic, and Underline formatting",
+      "Change paragraph alignments (Left, Center, Right)"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Welcome to Word Formatting",
+        "content": "Microsoft Word provides a ribbon at the top of the interface. The Home tab contains the Font group, which holds controls for styling text such as Bold (B), Italic (I), and Underline (U).",
+        "type": "text"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Interactive Challenge: Make Text Bold",
+        "content": "Use the interactive Word simulator below to format selected text. Click the Bold button on the ribbon tab to make the headline pop!",
+        "type": "sim-challenge",
+        "challengeTarget": {
+          "app": "word",
+          "action": "bold"
+        },
+        "hint": "Look for the bold 'B' button in the Font section on the Home tab ribbon."
+      },
+      {
+        "stepNumber": 3,
+        "title": "Interactive Challenge: Align Text Center",
+        "content": "Titles and headers look best when centered on the page. Click the Center Alignment button in the Paragraph section.",
+        "type": "sim-challenge",
+        "challengeTarget": {
+          "app": "word",
+          "action": "align_center"
+        },
+        "hint": "Click the Center alignment icon (middle lines) in the Paragraph section."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-w101-1",
+        "type": "multiple-choice",
+        "question": "Which keyboard shortcut applies Bold formatting to selected text in Microsoft Word?",
+        "options": ["Ctrl + B", "Ctrl + I", "Ctrl + U", "Ctrl + Shift + B"],
+        "correctAnswer": 0,
+        "explanation": "Ctrl + B is the standard universal shortcut for Bold formatting in Microsoft Word."
+      },
+      {
+        "id": "q-w101-2",
+        "type": "click-ribbon",
+        "question": "Where is the Italic (I) tool located on the Word Ribbon?",
+        "options": ["Home Tab -> Font Group", "Insert Tab -> Pages Group", "Layout Tab -> Paragraph Group", "View Tab -> Zoom Group"],
+        "correctAnswer": 0,
+        "targetRibbonButton": "italic-btn",
+        "explanation": "Font formatting options like Bold, Italic, and Underline are grouped under the Home Tab."
+      }
+    ]
+  },
+  {
+    "id": "word-102",
+    "moduleId": "word",
+    "title": "Working with Tables & Styles",
+    "description": "Structure content into formatted grids, apply Heading styles, and create bulleted lists.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 12,
+    "xpReward": 60,
+    "objectives": [
+      "Insert and design formatted tables",
+      "Apply Heading 1 and Heading 2 document styles",
+      "Create custom bulleted lists"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Document Headings & Hierarchy",
+        "content": "Styles make your document consistent and generate automatic Tables of Contents. Heading 1 is ideal for document titles, while Heading 2 is perfect for sub-sections.",
+        "type": "text"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Interactive Challenge: Apply Heading Style",
+        "content": "Click the Heading 1 style chip in the Styles ribbon box to apply document structure.",
+        "type": "sim-challenge",
+        "challengeTarget": {
+          "app": "word",
+          "action": "heading_1"
+        },
+        "hint": "Look for the 'Heading 1' box in the Styles gallery on the Home tab."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-w102-1",
+        "type": "multiple-choice",
+        "question": "Why should you use Styles instead of just enlarging text font size manually?",
+        "options": [
+          "Styles enable automatic Table of Contents generation and consistent document navigation",
+          "Styles make the file size 50% smaller",
+          "Styles prevent printing errors",
+          "Styles automatically translate text"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Styles build semantic document structure, allowing Word to generate navigation maps and Tables of Contents."
+      }
+    ]
+  }
+]

@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@300;400;700;900&display=swap');
+
+@font-face {
+  font-family: 'Khmer OS Battambang';
+  src: local('Khmer OS Battambang'), local('Battambang');
+}
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --primary: 207 100% 42%;
+    --primary-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+    --primary: 207 100% 50%;
+    --primary-foreground: 222.2 84% 4.9%;
+    --border: 217.2 32.6% 17.5%;
+  }
+}
+
+body {
+  background-color: theme('colors.gray.50');
+  color: theme('colors.gray.900');
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark body {
+  background-color: #0b0f19;
+  color: #f3f4f6;
+}
+
+/* Khmer Font Override & Enhanced Typography */
+html[lang="km"],
+html[lang="km"] body,
+.lang-km,
+.lang-km body {
+  font-family: 'Khmer OS Battambang', 'Battambang', system-ui, -apple-system, sans-serif !important;
+  line-height: 1.7 !important;
+  letter-spacing: 0.015em;
+}
+
+html[lang="km"] h1,
+html[lang="km"] h2,
+html[lang="km"] h3,
+html[lang="km"] h4,
+.lang-km h1,
+.lang-km h2,
+.lang-km h3,
+.lang-km h4 {
+  line-height: 1.45 !important;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+
+/* Glassmorphism backdrop */
+.fluent-glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.dark .fluent-glass {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.4);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.7);
+}
+
+/* Excel grid inputs */
+.excel-cell-input:focus {
+  outline: 2px solid #107C41;
+  outline-offset: -1px;
+  z-index: 10;
+}
+
+/* Key animation */
+@keyframes keyPress {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.92); }
+  100% { transform: scale(1); }
+}
+
+.key-pressed {
+  animation: keyPress 0.15s ease-in-out;
+}
+
+/* Glow Utilities */
+.shadow-glow {
+  box-shadow: 0 0 25px -5px rgba(37, 99, 235, 0.4);
+}
+
+.shadow-glow-emerald {
+  box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.4);
+}

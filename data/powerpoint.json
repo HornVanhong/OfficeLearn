@@ -1,0 +1,45 @@
+[
+  {
+    "id": "ppt-101",
+    "moduleId": "powerpoint",
+    "title": "Slide Decks & Design Themes",
+    "description": "Learn to insert new slides, choose themes, format text frames, and arrange presentation visuals.",
+    "difficulty": "Beginner",
+    "durationMinutes": 10,
+    "xpReward": 50,
+    "objectives": [
+      "Navigate slide thumbnails and main slide canvas",
+      "Insert new slides with Title & Content layouts",
+      "Apply visual design themes"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "PowerPoint Workspace Layout",
+        "content": "PowerPoint features a left slide pane showing thumbnails of your deck, a central editing canvas, and a top ribbon with Design, Transitions, and Animations tabs.",
+        "type": "text"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Interactive Challenge: Add a New Slide",
+        "content": "Click the 'New Slide' button in the ribbon to expand your presentation deck.",
+        "type": "sim-challenge",
+        "challengeTarget": {
+          "app": "powerpoint",
+          "action": "new_slide"
+        },
+        "hint": "Click the + New Slide button on the PowerPoint Home ribbon tab."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-p101-1",
+        "type": "multiple-choice",
+        "question": "Which view mode in PowerPoint allows you to see all slide thumbnails arranged in a grid?",
+        "options": ["Slide Sorter View", "Reading View", "Outline View", "Master View"],
+        "correctAnswer": 0,
+        "explanation": "Slide Sorter View shows all slides in a grid layout, making it easy to reorder deck slides."
+      }
+    ]
+  }
+]

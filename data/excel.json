@@ -1,0 +1,97 @@
+[
+  {
+    "id": "excel-101",
+    "moduleId": "excel",
+    "title": "Excel Basics: Grid & Values",
+    "description": "Master cell grid coordinates, entering values, and formatting currency and numbers.",
+    "difficulty": "Beginner",
+    "durationMinutes": 10,
+    "xpReward": 50,
+    "objectives": [
+      "Navigate rows (1,2,3...) and columns (A,B,C...)",
+      "Select cell ranges (e.g. A1:B5)",
+      "Format numbers as Currency ($)"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Understanding the Spreadsheet Grid",
+        "content": "Excel is composed of vertical columns labeled with letters (A, B, C...) and horizontal rows labeled with numbers (1, 2, 3...). The intersection of a column and row is called a Cell (e.g., A1).",
+        "type": "text"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Interactive Challenge: Enter Data into Cell A1",
+        "content": "Click on cell A1 in the Excel grid below and type the number 250 into the cell or formula bar.",
+        "type": "sim-challenge",
+        "challengeTarget": {
+          "app": "excel",
+          "action": "enter_data_a1",
+          "targetValue": "250"
+        },
+        "hint": "Click cell A1 at the top-left of the grid and type 250."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-e101-1",
+        "type": "multiple-choice",
+        "question": "What is the cell reference at the intersection of column C and row 5?",
+        "options": ["5C", "C5", "C-5", "R5C3"],
+        "correctAnswer": 1,
+        "explanation": "Excel cell references always list the column letter first, followed by the row number (e.g., C5)."
+      }
+    ]
+  },
+  {
+    "id": "excel-102",
+    "moduleId": "excel",
+    "title": "Mastering Excel Formulas (=SUM)",
+    "description": "Write basic formulas starting with '=' and calculate sums and averages with =SUM() and =AVERAGE().",
+    "difficulty": "Intermediate",
+    "durationMinutes": 15,
+    "xpReward": 75,
+    "objectives": [
+      "Understand why all Excel formulas start with = equal sign",
+      "Write =SUM(A1:A4) to calculate totals",
+      "Use =AVERAGE() to calculate arithmetic mean"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "The Power of Formulas",
+        "content": "Every formula in Excel must begin with an equal sign (=). The =SUM() function adds together all numbers in a specified range of cells.",
+        "type": "text"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Interactive Challenge: Calculate Total with =SUM()",
+        "content": "In cell A4 of the Excel simulator, type '=SUM(A1:A3)' and press Enter to compute the total sum!",
+        "type": "sim-challenge",
+        "challengeTarget": {
+          "app": "excel",
+          "action": "sum_formula"
+        },
+        "hint": "Select cell A4, type =SUM(A1:A3) and press Enter."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-e102-1",
+        "type": "multiple-choice",
+        "question": "Which symbol MUST be typed first when writing a formula in Excel?",
+        "options": ["+", "=", "$", "@"],
+        "correctAnswer": 1,
+        "explanation": "All Excel formulas must start with an equal sign (=) so Excel knows to evaluate an expression rather than treat it as plain text."
+      },
+      {
+        "id": "q-e102-2",
+        "type": "multiple-choice",
+        "question": "Which formula correctly calculates the sum of cells A1 through A5?",
+        "options": ["=SUM(A1:A5)", "=ADD(A1,A5)", "=PLUS(A1:A5)", "=TOTAL(A1..A5)"],
+        "correctAnswer": 0,
+        "explanation": "=SUM(A1:A5) is the correct standard Excel function for summing a range."
+      }
+    ]
+  }
+]
