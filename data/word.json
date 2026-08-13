@@ -2,8 +2,8 @@
   {
     "id": "word-101",
     "moduleId": "word",
-    "title": "Formatting Text in Word",
-    "description": "Learn how to format text styles, toggle Bold, Italic, Underline, and align document paragraphs.",
+    "title": "Formatting Text & Paragraph Alignment",
+    "description": "Master character formatting, font styles, Bold, Italic, Underline, and document paragraph alignment.",
     "difficulty": "Beginner",
     "durationMinutes": 10,
     "xpReward": 50,
@@ -65,48 +65,123 @@
   {
     "id": "word-102",
     "moduleId": "word",
-    "title": "Working with Tables & Styles",
-    "description": "Structure content into formatted grids, apply Heading styles, and create bulleted lists.",
+    "title": "Tables, Headers & Page Layouts",
+    "description": "Structure data in formatted grids, insert headers, footers, page numbers, and custom margins.",
     "difficulty": "Intermediate",
     "durationMinutes": 12,
     "xpReward": 60,
     "objectives": [
       "Insert and design formatted tables",
-      "Apply Heading 1 and Heading 2 document styles",
-      "Create custom bulleted lists"
+      "Add page headers, footers, and page numbering",
+      "Configure page margins and orientation (Portrait/Landscape)"
     ],
     "steps": [
       {
         "stepNumber": 1,
-        "title": "Document Headings & Hierarchy",
-        "content": "Styles make your document consistent and generate automatic Tables of Contents. Heading 1 is ideal for document titles, while Heading 2 is perfect for sub-sections.",
+        "title": "Designing Grid Tables",
+        "content": "Tables help present structured financial data, task schedules, and business reports cleanly. Go to Insert -> Table to grid rows and columns.",
         "type": "text"
       },
       {
         "stepNumber": 2,
-        "title": "Interactive Challenge: Apply Heading Style",
-        "content": "Click the Heading 1 style chip in the Styles ribbon box to apply document structure.",
+        "title": "Interactive Challenge: Add Bullet List",
+        "content": "Use the simulator ribbon to apply a bulleted list to document key takeaways.",
         "type": "sim-challenge",
         "challengeTarget": {
           "app": "word",
-          "action": "heading_1"
+          "action": "bullet_list"
         },
-        "hint": "Look for the 'Heading 1' box in the Styles gallery on the Home tab."
+        "hint": "Click the Bullet List button in the Paragraph section on the Home tab ribbon."
       }
     ],
     "quiz": [
       {
         "id": "q-w102-1",
         "type": "multiple-choice",
-        "question": "Why should you use Styles instead of just enlarging text font size manually?",
+        "question": "Which tab on the Word ribbon contains controls to insert Page Numbers and Headers?",
+        "options": ["Insert Tab", "Design Tab", "Layout Tab", "View Tab"],
+        "correctAnswer": 0,
+        "explanation": "The Insert tab contains all object insertion tools, including Headers, Footers, and Page Numbers."
+      }
+    ]
+  },
+  {
+    "id": "word-103",
+    "moduleId": "word",
+    "title": "Styles & Automated Table of Contents",
+    "description": "Apply Heading styles (Heading 1, Heading 2) to auto-generate structured document tables of contents.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 15,
+    "xpReward": 75,
+    "objectives": [
+      "Apply Heading styles to document sections",
+      "Generate an automated Table of Contents",
+      "Customize heading font color and hierarchy"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Heading Hierarchy & Navigation",
+        "content": "Using Headings builds a semantic structure in Word. Heading 1 is for main chapters, and Heading 2 is for sub-topics.",
+        "type": "text"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Interactive Challenge: Apply Heading Style",
+        "content": "Click the Heading 1 style box in the Styles gallery box on the ribbon.",
+        "type": "sim-challenge",
+        "challengeTarget": {
+          "app": "word",
+          "action": "heading_1"
+        },
+        "hint": "Click Heading 1 in the Styles section on the Home tab ribbon."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-w103-1",
+        "type": "multiple-choice",
+        "question": "What primary benefit does applying Heading Styles provide over manual text resizing?",
         "options": [
-          "Styles enable automatic Table of Contents generation and consistent document navigation",
-          "Styles make the file size 50% smaller",
-          "Styles prevent printing errors",
-          "Styles automatically translate text"
+          "It enables automatic Table of Contents generation and Navigation Pane jump links",
+          "It compresses the file size by 50%",
+          "It forces automatic printing in color",
+          "It translates English text into Khmer automatically"
         ],
         "correctAnswer": 0,
-        "explanation": "Styles build semantic document structure, allowing Word to generate navigation maps and Tables of Contents."
+        "explanation": "Heading styles create structural landmarks, allowing Word to generate automatic Table of Contents."
+      }
+    ]
+  },
+  {
+    "id": "word-104",
+    "moduleId": "word",
+    "title": "Mail Merge, Track Changes & Automation Pro",
+    "description": "Master bulk personalized document generation (Mail Merge), team collaboration with Track Changes, and macro automation.",
+    "difficulty": "Advanced Pro",
+    "durationMinutes": 20,
+    "xpReward": 100,
+    "objectives": [
+      "Execute Mail Merge with Excel client data lists",
+      "Use Track Changes and Comments for document review",
+      "Protect documents with password restriction"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Mail Merge Business Workflow",
+        "content": "Mail Merge combines a base letter template with an Excel spreadsheet database to produce personalized certificates, invoices, or letters automatically.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-w104-1",
+        "type": "multiple-choice",
+        "question": "Which ribbon tab contains tools to link an Excel spreadsheet list for generating bulk personalized letters?",
+        "options": ["Mailings Tab", "Review Tab", "Developer Tab", "References Tab"],
+        "correctAnswer": 0,
+        "explanation": "The Mailings tab contains the Mail Merge Wizard for connecting Excel recipient lists."
       }
     ]
   }

@@ -2,95 +2,156 @@
   {
     "id": "excel-101",
     "moduleId": "excel",
-    "title": "Excel Basics: Grid & Values",
-    "description": "Master cell grid coordinates, entering values, and formatting currency and numbers.",
+    "title": "Grid Navigation, Data Entry & AutoFill",
+    "description": "Learn Excel workbook layout, cell coordinate references (A1, B2), text/number entry, and AutoFill handles.",
     "difficulty": "Beginner",
     "durationMinutes": 10,
     "xpReward": 50,
     "objectives": [
-      "Navigate rows (1,2,3...) and columns (A,B,C...)",
-      "Select cell ranges (e.g. A1:B5)",
-      "Format numbers as Currency ($)"
+      "Navigate spreadsheet grid rows (1,2,3) and columns (A,B,C)",
+      "Enter numeric values and text strings into active cells",
+      "Use AutoFill handle to populate date and number series"
     ],
     "steps": [
       {
         "stepNumber": 1,
-        "title": "Understanding the Spreadsheet Grid",
-        "content": "Excel is composed of vertical columns labeled with letters (A, B, C...) and horizontal rows labeled with numbers (1, 2, 3...). The intersection of a column and row is called a Cell (e.g., A1).",
+        "title": "The Excel Grid & Formula Bar",
+        "content": "Excel stores data in a grid of columns (letters) and rows (numbers). Cell intersections (like A1 or B3) hold data or formulas. The formula bar (fx) displays cell contents.",
         "type": "text"
       },
       {
         "stepNumber": 2,
         "title": "Interactive Challenge: Enter Data into Cell A1",
-        "content": "Click on cell A1 in the Excel grid below and type the number 250 into the cell or formula bar.",
+        "content": "Select cell A1 in the interactive Excel grid below and enter the numerical value 250.",
         "type": "sim-challenge",
         "challengeTarget": {
           "app": "excel",
           "action": "enter_data_a1",
-          "targetValue": "250"
+          "value": "250"
         },
-        "hint": "Click cell A1 at the top-left of the grid and type 250."
+        "hint": "Click cell A1 at the top-left of the grid and type '250'."
       }
     ],
     "quiz": [
       {
         "id": "q-e101-1",
         "type": "multiple-choice",
-        "question": "What is the cell reference at the intersection of column C and row 5?",
-        "options": ["5C", "C5", "C-5", "R5C3"],
-        "correctAnswer": 1,
-        "explanation": "Excel cell references always list the column letter first, followed by the row number (e.g., C5)."
+        "question": "How is a specific cell address referenced in Microsoft Excel?",
+        "options": ["Column Letter followed by Row Number (e.g. B4)", "Row Number followed by Column Letter (e.g. 4B)", "Page Number and Grid Number", "Sheet Index"],
+        "correctAnswer": 0,
+        "explanation": "Excel cell coordinates start with the Column letter followed by the Row number (e.g. B4)."
       }
     ]
   },
   {
     "id": "excel-102",
     "moduleId": "excel",
-    "title": "Mastering Excel Formulas (=SUM)",
-    "description": "Write basic formulas starting with '=' and calculate sums and averages with =SUM() and =AVERAGE().",
-    "difficulty": "Intermediate",
-    "durationMinutes": 15,
-    "xpReward": 75,
+    "title": "Essential Formulas (=SUM, =AVERAGE, =COUNT)",
+    "description": "Write basic formulas starting with '=' to perform mathematical calculations across cell ranges.",
+    "difficulty": "Beginner",
+    "durationMinutes": 12,
+    "xpReward": 60,
     "objectives": [
-      "Understand why all Excel formulas start with = equal sign",
-      "Write =SUM(A1:A4) to calculate totals",
-      "Use =AVERAGE() to calculate arithmetic mean"
+      "Understand why all Excel formulas begin with '='",
+      "Calculate range totals using =SUM(A1:A3)",
+      "Compute statistical averages using =AVERAGE(B1:B10)"
     ],
     "steps": [
       {
         "stepNumber": 1,
-        "title": "The Power of Formulas",
-        "content": "Every formula in Excel must begin with an equal sign (=). The =SUM() function adds together all numbers in a specified range of cells.",
+        "title": "Writing Formulas in Excel",
+        "content": "Every formula in Excel must begin with an equals sign (=). For example, =SUM(A1:A3) adds up all values from cell A1 down to A3.",
         "type": "text"
       },
       {
         "stepNumber": 2,
-        "title": "Interactive Challenge: Calculate Total with =SUM()",
-        "content": "In cell A4 of the Excel simulator, type '=SUM(A1:A3)' and press Enter to compute the total sum!",
+        "title": "Interactive Challenge: Insert SUM Formula",
+        "content": "Click the AutoSum button on the ribbon or type =SUM(A1:A3) in cell A4.",
         "type": "sim-challenge",
         "challengeTarget": {
           "app": "excel",
           "action": "sum_formula"
         },
-        "hint": "Select cell A4, type =SUM(A1:A3) and press Enter."
+        "hint": "Click cell A4 and click AutoSum (∑) on the Home tab ribbon."
       }
     ],
     "quiz": [
       {
         "id": "q-e102-1",
         "type": "multiple-choice",
-        "question": "Which symbol MUST be typed first when writing a formula in Excel?",
-        "options": ["+", "=", "$", "@"],
-        "correctAnswer": 1,
-        "explanation": "All Excel formulas must start with an equal sign (=) so Excel knows to evaluate an expression rather than treat it as plain text."
-      },
-      {
-        "id": "q-e102-2",
-        "type": "multiple-choice",
-        "question": "Which formula correctly calculates the sum of cells A1 through A5?",
-        "options": ["=SUM(A1:A5)", "=ADD(A1,A5)", "=PLUS(A1:A5)", "=TOTAL(A1..A5)"],
+        "question": "Which character must precede every calculation formula in Excel?",
+        "options": ["=", "+", "@", "#"],
         "correctAnswer": 0,
-        "explanation": "=SUM(A1:A5) is the correct standard Excel function for summing a range."
+        "explanation": "The equals sign (=) tells Excel to treat the cell contents as an executable formula."
+      }
+    ]
+  },
+  {
+    "id": "excel-103",
+    "moduleId": "excel",
+    "title": "Logical & Lookup Functions (=IF, =VLOOKUP, =XLOOKUP)",
+    "description": "Master conditional decision-making logic (=IF) and lookup data searching (=VLOOKUP, =XLOOKUP).",
+    "difficulty": "Intermediate",
+    "durationMinutes": 15,
+    "xpReward": 80,
+    "objectives": [
+      "Build conditional test rules using =IF(test, true_val, false_val)",
+      "Search vertical reference tables using =VLOOKUP",
+      "Utilize modern =XLOOKUP for flexible left/right data searching"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Lookup & Logic Automation",
+        "content": "=VLOOKUP and =XLOOKUP automatically search a product ID or employee code in a master table and return corresponding price or salary details.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-e103-1",
+        "type": "multiple-choice",
+        "question": "What is the key advantage of modern =XLOOKUP over legacy =VLOOKUP?",
+        "options": [
+          "=XLOOKUP can search data to both the left and right without requiring column index numbers",
+          "=XLOOKUP only works on numbers",
+          "=XLOOKUP automatically formats cells in green",
+          "=XLOOKUP deletes duplicate rows automatically"
+        ],
+        "correctAnswer": 0,
+        "explanation": "=XLOOKUP is flexible and can look up data in any direction without static column index offsets."
+      }
+    ]
+  },
+  {
+    "id": "excel-104",
+    "moduleId": "excel",
+    "title": "PivotTables, Data Validation & VBA Macros Pro",
+    "description": "Build dynamic summary PivotTables, enforce cell data validation input rules, and automate repetitive tasks with VBA Macros.",
+    "difficulty": "Advanced Pro",
+    "durationMinutes": 20,
+    "xpReward": 100,
+    "objectives": [
+      "Create interactive PivotTables to summarize massive datasets",
+      "Apply Data Validation drop-down selection lists",
+      "Record and edit automated VBA Macros"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Summarizing Data with PivotTables",
+        "content": "PivotTables aggregate thousands of data rows into clean summary tables with interactive filtering slicers, cross-tabulation, and pivot charts.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-e104-1",
+        "type": "multiple-choice",
+        "question": "Which tool in Excel allows you to restrict cell input to a specific drop-down list of choices?",
+        "options": ["Data Validation", "Conditional Formatting", "Goal Seek", "AutoFilter"],
+        "correctAnswer": 0,
+        "explanation": "Data Validation rules can create dropdown menus and restrict cell inputs."
       }
     ]
   }

@@ -44,6 +44,247 @@ export const khmerModulesMap: Record<string, Partial<OfficeModule>> = {
 };
 
 export const khmerLessonsMap: Record<string, Partial<Lesson>> = {
+  "office-basics-101": {
+    title: "ចំណុចប្រទាក់ Microsoft 365 & Ribbon",
+    description: "យល់ដឹងពីផ្ទាំងប៊ូតុង បញ្ជា របារឧបករណ៍ និងការរក្សាទុកស្វ័យប្រវត្តិ Cloud ក្នុងកម្មវិធី Office។",
+    objectives: [
+      "យល់ដឹងពីប្លង់ Ribbon រួមគ្នារវាង Word, Excel និង PowerPoint",
+      "ប្រើប្រាស់ Quick Access Toolbar និងប្រអប់ស្វែងរក",
+      "បើកដំណើរការ AutoSave សម្រាប់ OneDrive cloud storage",
+    ],
+    steps: [
+      {
+        stepNumber: 1,
+        title: "ការរចនា Ribbon ឯកភាព",
+        content: "គ្រប់កម្មវិធី Microsoft 365 ទាំងអស់ប្រើប្រាស់ការរចនា Ribbon ស្តង់ដារដែលចែកចេញជា Tabs (Home, Insert, Layout), Groups, និង Commands។",
+        type: "text",
+      },
+    ],
+    quiz: [
+      {
+        id: "q-ob101-1",
+        type: "multiple-choice",
+        question: "តើអ្វីជាមុខងារចម្បងនៃ Quick Access Toolbar ផ្នែកខាងលើនៃកម្មវិធី Office?",
+        options: [
+          "វាផ្ទុកប៊ូតុងបញ្ជាប្រើប្រាស់ញឹកញាប់ដូចជា Save, Undo, និង Redo ដោយចុចតែម្តង",
+          "វាស្វែងរកអ៊ីនធឺណិត",
+          "វាពិនិត្យថ្មម៉ាស៊ីន",
+          "វាចាក់សោអេក្រង់",
+        ],
+        correctAnswer: 0,
+        explanation: "Quick Access Toolbar ជួយឱ្យប៊ូតុងបញ្ជាសំខាន់ៗអាចចុចបានភ្លាមៗ ទោះបីជាអ្នកនៅលើ Ribbon Tab ណាក៏ដោយ។",
+      },
+    ],
+  },
+  "office-basics-102": {
+    title: "ការផ្ទុកទិន្នន័យ Cloud, AutoSave & Export ឯកសារ PDF",
+    description: "កំណត់ការបម្រុងទុក OneDrive, បើក AutoSave real-time និងនាំចេញឯកសារជា PDF។",
+    objectives: [
+      "បើក AutoSave សម្រាប់ឯកសារ OneDrive",
+      "នាំចេញឯកសារ Word និង Excel ជា PDF",
+      "គ្រប់គ្រងការរក្សាទុកឯកសារក្នុងម៉ាស៊ីន និងលើ Cloud",
+    ],
+    steps: [
+      {
+        stepNumber: 1,
+        title: "ការរក្សាទុកស្វ័យប្រវត្តិ Cloud & សុវត្ថិភាព",
+        content: "នៅពេលឯកសារត្រូវរក្សាទុកលើ OneDrive មុខងារ AutoSave នឹងរក្សាទុកការកែប្រែជារៀងរាល់ប៉ុន្មានវិនាទីម្តងដោយស្វ័យប្រវត្តិ។",
+        type: "text",
+      },
+    ],
+    quiz: [
+      {
+        id: "q-ob102-1",
+        type: "multiple-choice",
+        question: "តើលក្ខខណ្ឌអ្វីដែលចាំបាច់ដើម្បីឱ្យ AutoSave ដំណើរការក្នុង Microsoft 365?",
+        options: [
+          "ឯកសារត្រូវតែរក្សាទុកនៅលើ Cloud storage ដូចជា OneDrive ឬ SharePoint",
+          "កុំព្យូទ័រត្រូវតែដោតសាកថ្ម",
+          "ឯកសារត្រូវតែរក្សាទុកជា .txt",
+          "ឯកសារត្រូវតែមានយ៉ាងតិច ១០០ ទំព័រ",
+        ],
+        correctAnswer: 0,
+        explanation: "AutoSave អាស្រ័យលើការសមកាលកម្ម version លើ Cloud តាមរយៈ OneDrive ឬ SharePoint។",
+      },
+    ],
+  },
+  "office-basics-103": {
+    title: "ការសហការរៀបចំឯកសារ Real-time & ប្រវត្តិ Version History Pro",
+    description: "ធ្វើការរួមគ្នាជាមួយសមាជិកក្រុមក្នុងពេលតែមួយ និងស្តារប្រវត្តិឯកសារចាស់ឡើងវិញ។",
+    objectives: [
+      "ចែករំលែកតំណភ្ជាប់ឯកសារ Cloud ជាមួយសិទ្ធិមើល ឬកែប្រែ",
+      "សហការកែប្រែឯកសារក្នុងពេលតែមួយជាមួយសមាជិកក្រុម",
+      "ពិនិត្យ និងស្តារ Version History ចាស់ៗ",
+    ],
+    steps: [
+      {
+        stepNumber: 1,
+        title: "ការសហការកែប្រែ Real-time ជាមួយក្រុម",
+        content: "អ្នកប្រើប្រាស់ច្រើននាក់អាចកែប្រែឯកសារ Word ឬ Excel តែមួយក្នុងពេលតែមួយ ដោយមានសញ្ញា cursor ពណ៌បង្ហាញការកែប្រែជាក់ស្តែង។",
+        type: "text",
+      },
+    ],
+    quiz: [
+      {
+        id: "q-ob103-1",
+        type: "multiple-choice",
+        question: "ប្រសិនបើសមាជិកក្រុមលុបកថាខណ្ឌដោយអចេតនាក្នុងឯកសារ Cloud តើអ្នកអាចយកវាមកវិញយ៉ាងដូចម្តេច?",
+        options: [
+          "ចូលទៅ File -> Info -> Version History ហើយស្តារ version ចាស់ឡើងវិញ",
+          "ដំឡើង Microsoft Office ឡើងវិញ",
+          "កំណត់ម៉ាស៊ីនឡើងវិញ (Format)",
+          "បង្កើតឯកសារថ្មីពីដំបូង",
+        ],
+        correctAnswer: 0,
+        explanation: "Version History រក្សាទុកប្រវត្តិឯកសារ Cloud ទាំងអស់ ដែលអនុញ្ញាតឱ្យស្តារត្រឡប់ទៅ version មុនៗបានយ៉ាងងាយស្រួល។",
+      },
+    ],
+  },
+  "word-103": {
+    title: "Styles & ការបង្កើតមាតិកាស្វ័យប្រវត្តិ Table of Contents",
+    description: "អនុវត្តរចនាប័ទ្ម Heading 1 និង Heading 2 ដើម្បីបង្កើតបញ្ជីមាតិកាឯកសារដោយស្វ័យប្រវត្តិ។",
+    objectives: [
+      "អនុវត្តរចនាប័ទ្ម Heading លើផ្នែកនីមួយៗនៃឯកសារ",
+      "បង្កើតបញ្ជីមាតិកា Table of Contents ដោយស្វ័យប្រវត្តិ",
+      "កំណត់ពណ៌ និងឋានានុក្រមអក្សរក្បាល",
+    ],
+    steps: [
+      {
+        stepNumber: 1,
+        title: "ឋានានុក្រមចំណងជើង & ការរៀបចំរចនាសម្ព័ន្ធ",
+        content: "ការប្រើប្រាស់ Headings បង្កើតរចនាសម្ព័ន្ធឯកសារក្នុង Word។ Heading 1 ប្រើសម្រាប់ជំពូកធំ ហើយ Heading 2 សម្រាប់ប្រធានបទរង។",
+        type: "text",
+      },
+    ],
+    quiz: [
+      {
+        id: "q-w103-1",
+        type: "multiple-choice",
+        question: "តើការប្រើប្រាស់ Heading Styles ផ្តល់អត្ថប្រយោជន៍ចម្បងអ្វីខ្លះប្រៀបធៀបនឹងការប្តូរទំហំអក្សរដោយដៃ?",
+        options: [
+          "វាអនុញ្ញាតឱ្យបង្កើតបញ្ជីមាតិកា Table of Contents ដោយស្វ័យប្រវត្តិ និងតំណផ្លូវកាត់ក្នុង Navigation Pane",
+          "វាបង្រួមទំហំឯកសារ ៥០%",
+          "វាបង្ខំឱ្យព្រីនជាពណ៌ស្វ័យប្រវត្តិ",
+          "វាបកប្រែអត្ថបទអង់គ្លេសទៅខ្មែរដោយស្វ័យប្រវត្តិ",
+        ],
+        correctAnswer: 0,
+        explanation: "Heading styles បង្កើតរចនាសម្ព័ន្ធន័យវិទ្យា អនុញ្ញាតឱ្យ Word បង្កើត Table of Contents ដោយស្វ័យប្រវត្តិ។",
+      },
+    ],
+  },
+  "word-104": {
+    title: "Mail Merge, Track Changes & ការបង្កើតស្វ័យប្រវត្តិ Macro Pro",
+    description: "ស្ទាត់ជំនាញការបង្កើតលិខិតផ្លូវការច្រើនក្នុងពេលតែមួយ (Mail Merge) និងការតាមដានការកែប្រែ Track Changes។",
+    objectives: [
+      "អនុវត្ត Mail Merge ជាមួយបញ្ជីទិន្នន័យ Excel",
+      "ប្រើប្រាស់ Track Changes និង Comments សម្រាប់ការពិនិត្យឯកសារក្រុម",
+      "ការពារឯកសារដោយប្រើប្រាស់លេខកូដសម្ងាត់",
+    ],
+    steps: [
+      {
+        stepNumber: 1,
+        title: "លំហាត់ការងារ Mail Merge",
+        content: "Mail Merge ផ្សំគំរូលិខិតជាមួយទិន្នន័យក្នុង Excel ដើម្បីបង្កើតលិខិត ប័ណ្ណសរសើរ ឬវិក្កយបត្រផ្ទាល់ខ្លួនរាប់រយក្នុងពេលតែមួយ។",
+        type: "text",
+      },
+    ],
+    quiz: [
+      {
+        id: "q-w104-1",
+        type: "multiple-choice",
+        question: "តើ Ribbon Tab មួយណាដែលមានឧបករណ៍តភ្ជាប់បញ្ជី Excel សម្រាប់បង្កើតលិខិតផ្ទាល់ខ្លួនច្រើន?",
+        options: ["Mailings Tab", "Review Tab", "Developer Tab", "References Tab"],
+        correctAnswer: 0,
+        explanation: "Mailings Tab ផ្ទុក Mail Merge Wizard សម្រាប់ភ្ជាប់បញ្ជីអ្នកទទួលពី Excel។",
+      },
+    ],
+  },
+  "excel-103": {
+    title: "អនុមុខតក្កវិជ្ជា & ការស្វែងរកទិន្នន័យ (=IF, =VLOOKUP, =XLOOKUP)",
+    description: "ស្ទាត់ជំនាញការធ្វើសេចក្តីសម្រេចចិត្តតាមលក្ខខណ្ឌ (=IF) និងការស្វែងរកទិន្នន័យ (=VLOOKUP, =XLOOKUP)។",
+    objectives: [
+      "បង្កើតលក្ខខណ្ឌតក្កវិជ្ជាដោយប្រើ =IF(test, true_val, false_val)",
+      "ស្វែងរកទិន្នន័យក្នុងតារាងយោងដោយប្រើ =VLOOKUP",
+      "ប្រើប្រាស់ =XLOOKUP ទំនើបសម្រាប់ការស្វែងរកទិន្នន័យគ្រប់ទិសដៅ",
+    ],
+    steps: [
+      {
+        stepNumber: 1,
+        title: "ការស្វែងរក & ស្វ័យប្រវត្តិកម្មតក្កវិជ្ជា",
+        content: "=VLOOKUP និង =XLOOKUP ស្វែងរកលេខកូដផលិតផល ឬបុគ្គលិកក្នុងតារាងធំ ហើយទាញយកតម្លៃ ឬប្រាក់ខែដែលត្រូវគ្នាមកបង្ហាញដោយស្វ័យប្រវត្តិ។",
+        type: "text",
+      },
+    ],
+    quiz: [
+      {
+        id: "q-e103-1",
+        type: "multiple-choice",
+        question: "តើអ្វីជាអត្ថប្រយោជន៍ចម្បងនៃ =XLOOKUP ទំនើបប្រៀបធៀបនឹង =VLOOKUP ចាស់?",
+        options: [
+          "=XLOOKUP អាចស្វែងរកទិន្នន័យទាំងខាងឆ្វេង និងខាងស្តាំ ដោយមិនបាច់កំណត់លេខរៀងជួរឈរឡើយ",
+          "=XLOOKUP ដំណើរការតែលើលេខប៉ុណ្ណោះ",
+          "=XLOOKUP កំណត់ពណ៌ក្រឡាជាពណ៌បៃតងស្វ័យប្រវត្តិ",
+          "=XLOOKUP លុបជួរដេកស្ទួនដោយស្វ័យប្រវត្តិ",
+        ],
+        correctAnswer: 0,
+        explanation: "=XLOOKUP មានភាពបត់បែន អាចស្វែងរកទិន្នន័យគ្រប់ទិសដៅដោយមិនបាច់រាប់លេខរៀងជួរឈរ។",
+      },
+    ],
+  },
+  "excel-104": {
+    title: "PivotTables, Data Validation & ស្វ័យប្រវត្តិកម្ម VBA Macro Pro",
+    description: "បង្កើតតារាងសង្ខេបទិន្នន័យ PivotTables កំណត់បញ្ជីជ្រើសរើស Data Validation និងសរសេរ VBA Macros។",
+    objectives: [
+      "បង្កើត PivotTables អន្តរកម្មដើម្បីសង្ខេបទិន្នន័យធំៗ",
+      "អនុវត្តបញ្ជីជ្រើសរើស Data Validation ក្នុងក្រឡា",
+      "កត់ត្រា និងកែសម្រួល VBA Macros",
+    ],
+    steps: [
+      {
+        stepNumber: 1,
+        title: "ការសង្ខេបទិន្នន័យជាមួយ PivotTables",
+        content: "PivotTables បង្រួមទិន្នន័យរាប់ពាន់ជួរដេកមកជាតារាងសង្ខេបស្អាត ជាមួយតម្រង និងក្រាហ្វិកអន្តរកម្ម។",
+        type: "text",
+      },
+    ],
+    quiz: [
+      {
+        id: "q-e104-1",
+        type: "multiple-choice",
+        question: "តើឧបករណ៍មួយណាក្នុង Excel ដែលអនុញ្ញាតឱ្យកំណត់បញ្ជីជ្រើសរើស (Dropdown List) ក្នុងក្រឡា?",
+        options: ["Data Validation", "Conditional Formatting", "Goal Seek", "AutoFilter"],
+        correctAnswer: 0,
+        explanation: "Data Validation កំណត់លក្ខខណ្ឌបញ្ចូលទិន្នន័យ និងបង្កើតបញ្ជីជ្រើសរើស (Dropdown menu) ក្នុងក្រឡា។",
+      },
+    ],
+  },
+  "powerpoint-103": {
+    title: "Slide Master, Custom Motion & បទបង្ហាញ Presenter View Pro",
+    description: "ស្ទាត់ជំនាញការរចនាគំរូ Slide Master បែបផែនចលនា Custom Motion និងការបង្ហាញលើអេក្រង់ពីរ Presenter View។",
+    objectives: [
+      "កំណត់ប្លង់រួមតាមរយៈ Slide Master view",
+      "បង្កើតចលនាផ្លាស់ទីតាមផ្លូវ Custom Motion paths",
+      "ប្រើប្រាស់ Presenter View ជាមួយកំណត់កត់សម្គាល់ផ្ទាល់ខ្លួន",
+    ],
+    steps: [
+      {
+        stepNumber: 1,
+        title: "Slide Master & ម៉ាកសញ្ញាក្រុមហ៊ុន Pro",
+        content: "Slide Master អនុញ្ញាតឱ្យអ្នកដាក់រូបសញ្ញាក្រុមហ៊ុន (Logo) ក្បាលទំព័រ ឬពណ៌ចម្បងតែម្តង ហើយវាបង្ហាញលើគ្រប់ស្លាយទាំងអស់ដោយស្វ័យប្រវត្តិ។",
+        type: "text",
+      },
+    ],
+    quiz: [
+      {
+        id: "q-p103-1",
+        type: "multiple-choice",
+        question: "តើអ្នកគួរបញ្ចូលរូបសញ្ញាក្រុមហ៊ុន (Logo) នៅឯណាដើម្បីឱ្យវាបង្ហាញលើគ្រប់ស្លាយទាំងអស់ដោយស្វ័យប្រវត្តិ?",
+        options: ["View Tab -> Slide Master", "Insert Tab -> Shapes", "Design Tab -> Background", "File Tab -> Options"],
+        correctAnswer: 0,
+        explanation: "ការកែសម្រួលលើ Slide Master នឹងធ្វើបច្ចុប្បន្នភាពលើគ្រប់ប្លង់ស្លាយទាំងអស់ក្នុងបទបង្ហាញ។",
+      },
+    ],
+  },
   "basics-101": {
     title: "ចំណុចប្រទាក់ Microsoft 365 & Ribbon",
     description: "យល់ដឹងពីផ្ទាំងប៊ូតុង បញ្ជា របារឧបករណ៍ និងការរក្សាទុកស្វ័យប្រវត្តិ Cloud ក្នុងកម្មវិធី Office។",

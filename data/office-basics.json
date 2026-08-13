@@ -1,38 +1,112 @@
 [
   {
-    "id": "basics-101",
+    "id": "office-basics-101",
     "moduleId": "office-basics",
-    "title": "The Microsoft 365 Interface & Ribbon",
-    "description": "Understand tabs, commands, quick access toolbar, and cloud auto-save concepts across Office apps.",
+    "title": "Microsoft 365 Ribbon & Quick Access",
+    "description": "Master navigation across the unified Microsoft 365 Ribbon interface, Quick Access Toolbar, and Command Search.",
     "difficulty": "Beginner",
     "durationMinutes": 8,
     "xpReward": 40,
     "objectives": [
-      "Understand the Ribbon layout shared across Word, Excel, and PowerPoint",
-      "Use Quick Access Toolbar & Search bar",
-      "Enable AutoSave for OneDrive cloud storage"
+      "Navigate ribbon tabs (Home, Insert, Layout, Design)",
+      "Customize Quick Access Toolbar shortcuts",
+      "Use 'Tell Me' Command Search"
     ],
     "steps": [
       {
         "stepNumber": 1,
-        "title": "Unified Ribbon Design",
-        "content": "All Microsoft 365 applications use a standard Ribbon design divided into Tabs (Home, Insert, Layout), Groups, and Commands.",
+        "title": "The Microsoft 365 Ribbon Interface",
+        "content": "The Ribbon organizes commands into contextual tabs: Home for formatting, Insert for media/tables, Layout for margins, and View for display modes.",
         "type": "text"
       }
     ],
     "quiz": [
       {
-        "id": "q-b101-1",
+        "id": "q-ob101-1",
         "type": "multiple-choice",
-        "question": "What is the primary benefit of enabling AutoSave in Microsoft 365?",
+        "question": "What is the primary function of the Quick Access Toolbar at the top of Office apps?",
         "options": [
-          "Changes are saved continuously in real-time to OneDrive cloud storage",
-          "It makes files password-protected automatically",
-          "It compresses images by 90%",
-          "It automatically emails copies to your manager"
+          "It holds frequently used one-click command icons like Save, Undo, and Redo regardless of active tab",
+          "It searches the internet",
+          "It checks system battery",
+          "It locks the computer screen"
         ],
         "correctAnswer": 0,
-        "explanation": "AutoSave continuously saves your edits to OneDrive or SharePoint so you never lose work."
+        "explanation": "The Quick Access Toolbar keeps essential commands accessible regardless of which ribbon tab is currently open."
+      }
+    ]
+  },
+  {
+    "id": "office-basics-102",
+    "moduleId": "office-basics",
+    "title": "Cloud Storage, AutoSave & Exporting (PDF/XLSX)",
+    "description": "Configure OneDrive cloud backup, enable real-time AutoSave, and export documents as universal PDFs.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 10,
+    "xpReward": 55,
+    "objectives": [
+      "Enable AutoSave for OneDrive documents",
+      "Export Word and Excel files as PDF",
+      "Manage local vs. cloud file storage"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Cloud AutoSave & Document Security",
+        "content": "When documents are stored on OneDrive, AutoSave saves edits every few seconds automatically, eliminating data loss.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-ob102-1",
+        "type": "multiple-choice",
+        "question": "Which requirement must be met for the AutoSave feature to function in Microsoft 365?",
+        "options": [
+          "The document must be saved on OneDrive or SharePoint cloud storage",
+          "The computer must be plugged into power",
+          "The document must be saved as a .txt file",
+          "The document must contain at least 100 pages"
+        ],
+        "correctAnswer": 0,
+        "explanation": "AutoSave relies on cloud version synchronization available via OneDrive or SharePoint."
+      }
+    ]
+  },
+  {
+    "id": "office-basics-103",
+    "moduleId": "office-basics",
+    "title": "Real-time Co-authoring & Version History Pro",
+    "description": "Collaborate simultaneously with team members, manage active user cursors, and restore previous version history points.",
+    "difficulty": "Advanced Pro",
+    "durationMinutes": 15,
+    "xpReward": 85,
+    "objectives": [
+      "Share cloud files with view/edit permission links",
+      "Co-author documents in real-time with team cursors",
+      "Inspect and restore historical document versions"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Real-time Team Co-authoring",
+        "content": "Multiple users can edit the same Word document or Excel spreadsheet at the exact same time, with colored presence cursors showing live edits.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-ob103-1",
+        "type": "multiple-choice",
+        "question": "If a team member accidentally deletes a paragraph in a co-authored cloud file, how can you recover it?",
+        "options": [
+          "Open File -> Info -> Version History and restore a previous autosaved checkpoint",
+          "Reinstall Microsoft Office",
+          "Formated the hard drive",
+          "Create a new document from scratch"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Version History preserves checkpoints of all cloud saves, allowing seamless rollback to any previous version."
       }
     ]
   }
