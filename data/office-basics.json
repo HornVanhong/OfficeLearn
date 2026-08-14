@@ -41,7 +41,7 @@
     "moduleId": "office-basics",
     "title": "Cloud Storage, AutoSave & Exporting (PDF/XLSX)",
     "description": "Configure OneDrive cloud backup, enable real-time AutoSave, and export documents as universal PDFs.",
-    "difficulty": "Intermediate",
+    "difficulty": "Beginner",
     "durationMinutes": 10,
     "xpReward": 55,
     "objectives": [
@@ -78,7 +78,7 @@
     "moduleId": "office-basics",
     "title": "Real-time Co-authoring & Version History Pro",
     "description": "Collaborate simultaneously with team members, manage active user cursors, and restore previous version history points.",
-    "difficulty": "Advanced Pro",
+    "difficulty": "Intermediate",
     "durationMinutes": 15,
     "xpReward": 85,
     "objectives": [
@@ -107,6 +107,70 @@
         ],
         "correctAnswer": 0,
         "explanation": "Version History preserves checkpoints of all cloud saves, allowing seamless rollback to any previous version."
+      }
+    ]
+  },
+  {
+    "id": "office-basics-104",
+    "moduleId": "office-basics",
+    "title": "Microsoft Search & Smart Lookup",
+    "description": "Utilize AI-powered Microsoft Search, Smart Lookup definitions, and Researcher tools inside documents.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 12,
+    "xpReward": 70,
+    "objectives": [
+      "Use Microsoft Search to find ribbon features instantly",
+      "Right-click text for Smart Lookup web definitions",
+      "Cite web articles automatically using Researcher"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Smart Lookup & Contextual Research",
+        "content": "Smart Lookup brings Bing search results, dictionary definitions, and Wikipedia articles directly inside your document without switching browsers.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-ob104-1",
+        "type": "multiple-choice",
+        "question": "Which right-click tool provides instant dictionary definitions and Wikipedia context inside Word?",
+        "options": ["Smart Lookup", "AutoCorrect", "Translator", "Font Dialog"],
+        "correctAnswer": 0,
+        "explanation": "Smart Lookup powers inline web searches and dictionary definitions directly within Office apps."
+      }
+    ]
+  },
+  {
+    "id": "office-basics-105",
+    "moduleId": "office-basics",
+    "title": "Office Mobile & Cross-Device Sync Pro",
+    "description": "Access, edit, and scan paper documents into digital PDF/Word files using Office Mobile on iOS/Android.",
+    "difficulty": "Advanced Pro",
+    "durationMinutes": 15,
+    "xpReward": 85,
+    "objectives": [
+      "Use Microsoft 365 Mobile App on phones and tablets",
+      "Scan physical paper documents into editable PDF/Word files",
+      "Pick up reading where you left off across devices"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Mobile Scan & Lens Automation",
+        "content": "The unified Microsoft 365 mobile app includes Lens OCR scanning, allowing mobile phones to capture receipts and whiteboards into digital files.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-ob105-1",
+        "type": "multiple-choice",
+        "question": "Which mobile feature converts camera photos of physical paper documents into editable Word or PDF files?",
+        "options": ["Microsoft Lens (OCR Scanning)", "Quick Note", "Dictate", "Read Aloud"],
+        "correctAnswer": 0,
+        "explanation": "Microsoft Lens uses OCR to convert physical scans into editable digital text and tables."
       }
     ]
   }

@@ -2,32 +2,212 @@
   {
     "id": "outlook-101",
     "moduleId": "outlook",
-    "title": "Email Management & Meeting Invites",
-    "description": "Compose emails, add attachments, schedule calendar sync meetings, and set inbox sorting rules.",
+    "title": "Inbox Navigation, Composing & Attachments",
+    "description": "Learn Outlook mail folder navigation, drafting emails, rich text formatting, and attaching cloud files.",
     "difficulty": "Beginner",
     "durationMinutes": 10,
     "xpReward": 50,
     "objectives": [
-      "Compose formal business emails with CC/BCC",
-      "Schedule calendar meetings with attendees and Teams links",
-      "Create automated inbox rules"
+      "Navigate Mail, Calendar, Contacts, and Tasks panes",
+      "Compose, Reply, Forward, and format email messages",
+      "Attach local files and OneDrive cloud share links"
     ],
     "steps": [
       {
         "stepNumber": 1,
-        "title": "Outlook Mail & Calendar Integration",
-        "content": "Outlook combines email messaging with calendar scheduling and contact management in a single workspace.",
+        "title": "Outlook Mail Workspace",
+        "content": "Outlook organizes communication across Mail (Inbox, Sent, Drafts), Calendar, People (Contacts), and Tasks.",
         "type": "text"
       }
     ],
     "quiz": [
       {
-        "id": "q-o101-1",
+        "id": "q-ou101-1",
         "type": "multiple-choice",
-        "question": "What does BCC stand for in email composition?",
-        "options": ["Blind Carbon Copy", "Business Contact Communication", "Basic Courtesy Copy", "Binary Code Channels"],
+        "question": "What is the difference between 'Reply' and 'Reply All' when responding to an email?",
+        "options": [
+          "Reply sends a response only to the original sender; Reply All responds to the sender and all CC'd recipients",
+          "Reply sends email to everyone in the company",
+          "Reply All saves the email as a draft",
+          "Reply deletes the email"
+        ],
         "correctAnswer": 0,
-        "explanation": "Blind Carbon Copy hides the recipient's email address from other message recipients."
+        "explanation": "Reply sends your message only to the sender, whereas Reply All includes all copied recipients."
+      }
+    ]
+  },
+  {
+    "id": "outlook-102",
+    "moduleId": "outlook",
+    "title": "Calendar Scheduling & Meeting Invites",
+    "description": "Schedule appointments, send team meeting invitations, set reminders, and check attendee availability.",
+    "difficulty": "Beginner",
+    "durationMinutes": 12,
+    "xpReward": 60,
+    "objectives": [
+      "Create calendar appointments and recurring events",
+      "Send meeting invitations with Teams video links",
+      "Use Scheduling Assistant to find free time slots"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Scheduling & Time Management",
+        "content": "Outlook Calendar helps schedule individual work blocks, client meetings, and recurring team syncs with automatic reminder popups.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-ou102-1",
+        "type": "multiple-choice",
+        "question": "Which tool in Outlook Calendar displays attendees' free/busy schedules side-by-side to avoid meeting conflicts?",
+        "options": ["Scheduling Assistant", "AutoFilter", "Quick Steps", "Rules Wizard"],
+        "correctAnswer": 0,
+        "explanation": "Scheduling Assistant visualizes team calendar availability to pick conflict-free meeting times."
+      }
+    ]
+  },
+  {
+    "id": "outlook-103",
+    "moduleId": "outlook",
+    "title": "Contacts, Distribution Lists & Address Book",
+    "description": "Organize personal and business contacts, build group distribution lists, and manage contact cards.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 12,
+    "xpReward": 65,
+    "objectives": [
+      "Save new contacts with email, phone, and company info",
+      "Create Contact Groups (Distribution Lists) for team messaging",
+      "Search the Global Address List (GAL)"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Contact Management & Groups",
+        "content": "Contact Groups allow you to send an email or meeting invite to an entire department by typing a single group name.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-ou103-1",
+        "type": "multiple-choice",
+        "question": "What is the primary benefit of creating a Contact Group (Distribution List) in Outlook?",
+        "options": [
+          "It allows you to email multiple people at once by entering a single group name",
+          "It blocks spam automatically",
+          "It translates emails to foreign languages",
+          "It encrypts the internet connection"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Contact Groups store list subsets of contacts for instant team messaging."
+      }
+    ]
+  },
+  {
+    "id": "outlook-104",
+    "moduleId": "outlook",
+    "title": "Email Signatures & Auto-Responders (Out of Office)",
+    "description": "Design professional HTML email signatures and configure Out of Office automatic vacation replies.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 12,
+    "xpReward": 65,
+    "objectives": [
+      "Create professional signatures with company logos and social links",
+      "Enable Automatic Replies (Out of Office)",
+      "Set separate internal vs. external vacation messages"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Professional Email Branding",
+        "content": "Signatures add your job title, phone number, and logo to every outgoing email automatically, establishing corporate identity.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-ou104-1",
+        "type": "multiple-choice",
+        "question": "Where do you configure automated Out of Office email responses while on vacation?",
+        "options": ["File Tab -> Automatic Replies (Out of Office)", "View Tab -> Layout", "Home Tab -> New Items", "Help Tab"],
+        "correctAnswer": 0,
+        "explanation": "Automatic Replies under the File tab sends automated response messages during set absence dates."
+      }
+    ]
+  },
+  {
+    "id": "outlook-105",
+    "moduleId": "outlook",
+    "title": "Inbox Rules, Folders & Quick Steps Pro",
+    "description": "Automate email sorting into folders using Rules Wizard and build one-click multi-action Quick Steps.",
+    "difficulty": "Advanced Pro",
+    "durationMinutes": 18,
+    "xpReward": 90,
+    "objectives": [
+      "Create automatic inbox sorting Rules based on sender/subject",
+      "Build custom one-click Quick Steps (e.g., Move + Mark Read + Forward)",
+      "Use Focused Inbox to separate priority emails"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Inbox Zero & Workflow Automation",
+        "content": "Rules automatically route incoming newsletters, client tickets, or notifications into specific folders, keeping your primary inbox clean.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-ou105-1",
+        "type": "multiple-choice",
+        "question": "What is the function of 'Quick Steps' in Outlook?",
+        "options": [
+          "It executes multiple automated actions (like moving an email and flagging it) with a single click",
+          "It counts your daily walking steps",
+          "It speeds up internet connection",
+          "It prints emails double-sided"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Quick Steps combine multi-step repetitive actions into a single toolbar macro button."
+      }
+    ]
+  },
+  {
+    "id": "outlook-106",
+    "moduleId": "outlook",
+    "title": "Task Management, Flagging & Follow-ups Pro",
+    "description": "Convert emails into actionable To-Do tasks, set due dates, flag priority emails, and manage productivity.",
+    "difficulty": "Advanced Pro",
+    "durationMinutes": 20,
+    "xpReward": 100,
+    "objectives": [
+      "Flag emails for follow-up with due date reminders",
+      "Drag emails onto the Task icon to create action items",
+      "Assign tasks to team members and track completion"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "To-Do List Integration",
+        "content": "Flagging an email adds it directly to your Microsoft To-Do task sidebar, ensuring important client requests are never forgotten.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-ou106-1",
+        "type": "multiple-choice",
+        "question": "How can you convert an email into a scheduled Task item in Outlook instantly?",
+        "options": [
+          "Drag and drop the email onto the Tasks icon in the navigation bar",
+          "Copy and paste text manually",
+          "Export as PDF",
+          "Delete the email"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Dragging an email to the Tasks icon creates a Task pre-populated with the email subject and body."
       }
     ]
   }

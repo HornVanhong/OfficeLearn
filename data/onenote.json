@@ -2,21 +2,21 @@
   {
     "id": "onenote-101",
     "moduleId": "onenote",
-    "title": "Digital Notebook Organization",
-    "description": "Organize notes into Sections, Pages, Tags, and shared team notebooks.",
+    "title": "Digital Notebooks, Section Tabs & Pages",
+    "description": "Structure ideas across Notebooks, color-coded Section tabs, nested Subpages, and free-form canvas notes.",
     "difficulty": "Beginner",
     "durationMinutes": 8,
     "xpReward": 40,
     "objectives": [
-      "Create Section tabs and Pages",
-      "Use To-Do & Important visual tags",
-      "Co-edit notes in real-time"
+      "Understand Notebook, Section, and Page hierarchy",
+      "Type free-form text blocks anywhere on the canvas",
+      "Create color-coded Section groups"
     ],
     "steps": [
       {
         "stepNumber": 1,
-        "title": "OneNote Hierarchy",
-        "content": "OneNote mimics a physical binder with Notebooks -> Sections (tabs) -> Pages.",
+        "title": "OneNote Canvas Hierarchy",
+        "content": "OneNote acts like a digital binder with Notebooks containing color-coded Section tabs, which contain individual dated Pages.",
         "type": "text"
       }
     ],
@@ -24,15 +24,84 @@
       {
         "id": "q-on101-1",
         "type": "multiple-choice",
-        "question": "How is content structured in Microsoft OneNote?",
+        "question": "What is the structural hierarchy of content in Microsoft OneNote?",
         "options": [
           "Notebooks -> Sections -> Pages",
+          "Pages -> Notebooks -> Sections",
           "Folders -> Documents -> Lines",
-          "Workbooks -> Worksheets -> Cells",
-          "Decks -> Slides -> Shapes"
+          "Sheets -> Cells -> Charts"
         ],
         "correctAnswer": 0,
-        "explanation": "OneNote follows the traditional ring-binder metaphor: Notebooks contain colored Section tabs, which hold individual Pages."
+        "explanation": "OneNote is organized into Notebooks, which contain Section tabs, which contain Pages."
+      }
+    ]
+  },
+  {
+    "id": "onenote-102",
+    "moduleId": "onenote",
+    "title": "Audio Capture & Image OCR Text Extraction",
+    "description": "Record audio notes, embed PDF printouts, and extract editable text from images using optical character recognition.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 10,
+    "xpReward": 55,
+    "objectives": [
+      "Record audio notes synchronized with typed text",
+      "Insert PDF document printouts onto canvas",
+      "Right-click images to Copy Text from Picture (OCR)"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Multimedia Capture & OCR",
+        "content": "OneNote's OCR engine reads text inside photos, scanned receipts, and PDF printouts, allowing you to search text inside images.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-on102-1",
+        "type": "multiple-choice",
+        "question": "Which OneNote feature extracts editable text from a photo or scanned business card image?",
+        "options": ["Copy Text from Picture (OCR)", "Smart Lookup", "Dictate", "Ink to Text"],
+        "correctAnswer": 0,
+        "explanation": "Copy Text from Picture uses OCR to convert text inside images into clipboard text."
+      }
+    ]
+  },
+  {
+    "id": "onenote-103",
+    "moduleId": "onenote",
+    "title": "Checklist Tags & Outlook Task Sync Pro",
+    "description": "Add To-Do interactive tags, search tags across notebooks, and sync meeting notes with Outlook Tasks.",
+    "difficulty": "Advanced Pro",
+    "durationMinutes": 12,
+    "xpReward": 70,
+    "objectives": [
+      "Apply interactive To-Do, Important, and Question tags",
+      "Search tags globally across all notebooks",
+      "Sync OneNote action items with Outlook Tasks"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Tagging & Task Sync",
+        "content": "Tags flag important action items. Clicking 'Outlook Tasks' converts a note directly into a scheduled Outlook reminder task.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-on103-1",
+        "type": "multiple-choice",
+        "question": "How can you convert a note line in OneNote into a tracked Outlook Task?",
+        "options": [
+          "Click Home Tab -> Outlook Tasks and select a due date",
+          "Export as HTML",
+          "Copy and paste to Notepad",
+          "Print to PDF"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Outlook Tasks button links OneNote action items directly to your Outlook To-Do list."
       }
     ]
   }

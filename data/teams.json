@@ -2,21 +2,21 @@
   {
     "id": "teams-101",
     "moduleId": "teams",
-    "title": "Channels, Chat & Video Meetings",
-    "description": "Master channel conversations, file sharing, meeting controls, and status settings.",
+    "title": "Channels, Team Chat & Mention Notifications",
+    "description": "Navigate Teams channels, send rich chat messages, @mention colleagues, and manage notification feeds.",
     "difficulty": "Beginner",
     "durationMinutes": 8,
     "xpReward": 40,
     "objectives": [
-      "Navigate Channels vs 1-on-1 Chats",
-      "Share files with co-authoring",
-      "Use Video call controls (mute, camera, screen share)"
+      "Understand Teams, Channels, and Direct Chat messaging",
+      "Format messages, post announcements, and send attachments",
+      "Use @mentions to notify specific team members"
     ],
     "steps": [
       {
         "stepNumber": 1,
-        "title": "Welcome to Teams",
-        "content": "Microsoft Teams centralizes group messaging, video calling, and document co-editing.",
+        "title": "Team Communication Hub",
+        "content": "Teams replaces cluttered internal email chains with organized Channel conversations and direct chat messaging.",
         "type": "text"
       }
     ],
@@ -24,15 +24,79 @@
       {
         "id": "q-t101-1",
         "type": "multiple-choice",
-        "question": "What is the difference between a Channel post and a Direct Chat in Teams?",
+        "question": "What happens when you type '@username' inside a Teams Channel conversation?",
         "options": [
-          "Channel posts are visible to all team members, while Direct Chats are private to specific participants",
-          "Direct Chats are recorded automatically",
-          "Channel posts can only contain text without attachments",
-          "Direct Chats require scheduling 24 hours in advance"
+          "It triggers an immediate priority notification to that specific team member",
+          "It deletes the message",
+          "It blocks the user",
+          "It creates a new channel"
         ],
         "correctAnswer": 0,
-        "explanation": "Channels are public discussion spaces for a team project, whereas Direct Chats are private 1-on-1 or group conversations."
+        "explanation": "@mentions send direct activity notifications to specified users in Microsoft Teams."
+      }
+    ]
+  },
+  {
+    "id": "teams-102",
+    "moduleId": "teams",
+    "title": "Video Meetings, Screen Sharing & Backgrounds",
+    "description": "Host video meetings, share presentation screens, mute microphones, and apply custom background blur.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 10,
+    "xpReward": 55,
+    "objectives": [
+      "Start instant 'Meet Now' or scheduled video calls",
+      "Share specific application windows or full screen desktop",
+      "Apply background blur and custom virtual backgrounds"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Video Collaboration & Sharing",
+        "content": "Teams video meetings support screen sharing, live closed captions, digital hand raising, and breakout rooms.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-t102-1",
+        "type": "multiple-choice",
+        "question": "Which option allows you to share only your PowerPoint presentation window without revealing your personal desktop background?",
+        "options": ["Share Window -> Select PowerPoint", "Share Desktop", "Record Screen", "Mute Microphone"],
+        "correctAnswer": 0,
+        "explanation": "Sharing a specific Window hides your desktop background and private desktop applications."
+      }
+    ]
+  },
+  {
+    "id": "teams-103",
+    "moduleId": "teams",
+    "title": "File Co-authoring, Tab Apps & Channel Bots Pro",
+    "description": "Pin Excel/Word tab apps inside channels, co-author documents, and automate workflows with Channel Bots.",
+    "difficulty": "Advanced Pro",
+    "durationMinutes": 15,
+    "xpReward": 85,
+    "objectives": [
+      "Add custom Tab Apps (Excel, SharePoint, Planner) to channels",
+      "Co-author documents directly inside Teams windows",
+      "Integrate automated workflow bots"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Extending Teams with Apps",
+        "content": "Teams tabs pin key Excel spreadsheets, Planner taskboards, or OneNote notebooks directly to channel headers for instant team access.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-t103-1",
+        "type": "multiple-choice",
+        "question": "How can you pin an Excel tracker spreadsheet directly to a Channel header bar for easy access?",
+        "options": ["Click the '+' icon in the Channel header and select the Excel Tab App", "Upload it to OneDrive", "Email it to the channel", "Copy the file path"],
+        "correctAnswer": 0,
+        "explanation": "The '+' tab button pins key cloud files and web apps directly to Channel headers."
       }
     ]
   }

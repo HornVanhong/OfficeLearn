@@ -67,7 +67,7 @@
     "moduleId": "word",
     "title": "Tables, Headers & Page Layouts",
     "description": "Structure data in formatted grids, insert headers, footers, page numbers, and custom margins.",
-    "difficulty": "Intermediate",
+    "difficulty": "Beginner",
     "durationMinutes": 12,
     "xpReward": 60,
     "objectives": [
@@ -156,15 +156,79 @@
   {
     "id": "word-104",
     "moduleId": "word",
-    "title": "Mail Merge, Track Changes & Automation Pro",
-    "description": "Master bulk personalized document generation (Mail Merge), team collaboration with Track Changes, and macro automation.",
+    "title": "Page Breaks, Section Breaks & Columns",
+    "description": "Separate long reports with Page Breaks, Section Breaks, and multi-column newspaper layouts.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 15,
+    "xpReward": 75,
+    "objectives": [
+      "Insert Next-Page and Continuous Section Breaks",
+      "Split text paragraphs into 2 or 3 newspaper columns",
+      "Unlink headers across independent section breaks"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Mastering Section Breaks",
+        "content": "Section Breaks allow you to change page orientations (e.g., portrait to landscape) midway through a document.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-w104-1",
+        "type": "multiple-choice",
+        "question": "Which break type is required if you want page 3 of a portrait document to be landscape?",
+        "options": ["Section Break (Next Page)", "Simple Page Break", "Line Break", "Paragraph Break"],
+        "correctAnswer": 0,
+        "explanation": "Section breaks decouple formatting properties like page orientation and headers between document regions."
+      }
+    ]
+  },
+  {
+    "id": "word-105",
+    "moduleId": "word",
+    "title": "Graphics, SmartArt & Watermarks",
+    "description": "Enhance visual documents with SmartArt process diagrams, text wrapping around images, and confidential watermarks.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 15,
+    "xpReward": 80,
+    "objectives": [
+      "Insert SmartArt hierarchy and flowcharts",
+      "Configure picture text wrapping (Square, Tight, Behind Text)",
+      "Add custom background draft/confidential watermarks"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "SmartArt & Visual Flowcharts",
+        "content": "SmartArt converts boring bullet points into interactive organizational charts, process flows, and cycle diagrams.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-w105-1",
+        "type": "multiple-choice",
+        "question": "Which Text Wrapping setting allows text to flow tightly around the exact contour of a inserted picture?",
+        "options": ["Tight", "In Line with Text", "Top and Bottom", "Behind Text"],
+        "correctAnswer": 0,
+        "explanation": "Tight wrapping wraps text around the precise shape boundary of an image."
+      }
+    ]
+  },
+  {
+    "id": "word-106",
+    "moduleId": "word",
+    "title": "Mail Merge & Bulk Document Generation Pro",
+    "description": "Master bulk personalized document generation (Mail Merge) by linking Excel client spreadsheets.",
     "difficulty": "Advanced Pro",
     "durationMinutes": 20,
     "xpReward": 100,
     "objectives": [
       "Execute Mail Merge with Excel client data lists",
-      "Use Track Changes and Comments for document review",
-      "Protect documents with password restriction"
+      "Insert Merge Fields into letter templates",
+      "Generate custom invoices and printable envelopes"
     ],
     "steps": [
       {
@@ -176,12 +240,44 @@
     ],
     "quiz": [
       {
-        "id": "q-w104-1",
+        "id": "q-w106-1",
         "type": "multiple-choice",
         "question": "Which ribbon tab contains tools to link an Excel spreadsheet list for generating bulk personalized letters?",
         "options": ["Mailings Tab", "Review Tab", "Developer Tab", "References Tab"],
         "correctAnswer": 0,
         "explanation": "The Mailings tab contains the Mail Merge Wizard for connecting Excel recipient lists."
+      }
+    ]
+  },
+  {
+    "id": "word-107",
+    "moduleId": "word",
+    "title": "Track Changes, Reviewing & Macro Automation Pro",
+    "description": "Collaborate professionally using Track Changes, inline comments, document protection passwords, and Developer macros.",
+    "difficulty": "Advanced Pro",
+    "durationMinutes": 22,
+    "xpReward": 110,
+    "objectives": [
+      "Track edits and accept/reject suggestions",
+      "Restrict editing access with password protection",
+      "Record VBA macros to automate repetitive formatting"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Reviewing with Track Changes",
+        "content": "Track Changes highlights insertions, deletions, and formatting edits made by editors for approval by the document owner.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-w107-1",
+        "type": "multiple-choice",
+        "question": "Which tab contains tools to turn on Track Changes and insert comments for team editing?",
+        "options": ["Review Tab", "Design Tab", "Layout Tab", "Home Tab"],
+        "correctAnswer": 0,
+        "explanation": "The Review tab is dedicated to proofing, spellcheck, comments, and change tracking."
       }
     ]
   }

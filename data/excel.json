@@ -46,7 +46,7 @@
   {
     "id": "excel-102",
     "moduleId": "excel",
-    "title": "Essential Formulas (=SUM, =AVERAGE, =COUNT)",
+    "title": "Essential Formulas (=SUM, =AVERAGE, =COUNT, =MAX)",
     "description": "Write basic formulas starting with '=' to perform mathematical calculations across cell ranges.",
     "difficulty": "Beginner",
     "durationMinutes": 12,
@@ -89,27 +89,59 @@
   {
     "id": "excel-103",
     "moduleId": "excel",
-    "title": "Logical & Lookup Functions (=IF, =VLOOKUP, =XLOOKUP)",
-    "description": "Master conditional decision-making logic (=IF) and lookup data searching (=VLOOKUP, =XLOOKUP).",
+    "title": "Logical & Conditional Functions (=IF, =AND, =OR, =IFS)",
+    "description": "Master conditional decision-making logic using nested =IF statements and multi-condition =IFS.",
     "difficulty": "Intermediate",
     "durationMinutes": 15,
-    "xpReward": 80,
+    "xpReward": 75,
     "objectives": [
       "Build conditional test rules using =IF(test, true_val, false_val)",
-      "Search vertical reference tables using =VLOOKUP",
-      "Utilize modern =XLOOKUP for flexible left/right data searching"
+      "Combine logical rules with =AND and =OR",
+      "Simplify multi-branch criteria with =IFS"
     ],
     "steps": [
       {
         "stepNumber": 1,
-        "title": "Lookup & Logic Automation",
-        "content": "=VLOOKUP and =XLOOKUP automatically search a product ID or employee code in a master table and return corresponding price or salary details.",
+        "title": "Conditional Business Logic",
+        "content": "The =IF function tests whether a condition is met (e.g. Sales > 5000) and returns one result if TRUE, and another if FALSE.",
         "type": "text"
       }
     ],
     "quiz": [
       {
         "id": "q-e103-1",
+        "type": "multiple-choice",
+        "question": "What will =IF(10>5, 'Pass', 'Fail') evaluate to in Excel?",
+        "options": ["Pass", "Fail", "TRUE", "Error"],
+        "correctAnswer": 0,
+        "explanation": "Since 10 is greater than 5, the TRUE branch result 'Pass' is returned."
+      }
+    ]
+  },
+  {
+    "id": "excel-104",
+    "moduleId": "excel",
+    "title": "Advanced Lookup Functions (=VLOOKUP, =INDEX/MATCH, =XLOOKUP)",
+    "description": "Search master tables to auto-fill pricing, customer info, and inventory data across worksheets.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 16,
+    "xpReward": 80,
+    "objectives": [
+      "Search vertical tables using =VLOOKUP",
+      "Combine =INDEX and =MATCH for flexible two-way lookups",
+      "Utilize modern =XLOOKUP for simplified, robust data retrieval"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Lookup & Reference Automation",
+        "content": "=VLOOKUP and =XLOOKUP automatically search a product ID or employee code in a master table and return corresponding price or salary details.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-e104-1",
         "type": "multiple-choice",
         "question": "What is the key advantage of modern =XLOOKUP over legacy =VLOOKUP?",
         "options": [
@@ -124,17 +156,81 @@
     ]
   },
   {
-    "id": "excel-104",
+    "id": "excel-105",
     "moduleId": "excel",
-    "title": "PivotTables, Data Validation & VBA Macros Pro",
-    "description": "Build dynamic summary PivotTables, enforce cell data validation input rules, and automate repetitive tasks with VBA Macros.",
+    "title": "Data Sorting, Filtering & Conditional Formatting",
+    "description": "Filter large data tables, apply multi-level sort orders, and highlight top performers with color scales.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 15,
+    "xpReward": 75,
+    "objectives": [
+      "Apply AutoFilters to headers for quick criteria searching",
+      "Sort data alphabetically or numerically by multiple keys",
+      "Highlight cells dynamically using Conditional Formatting rules"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Visual Data Highlighting",
+        "content": "Conditional formatting automatically applies green background fills to cells exceeding targets or red highlights to overdue tasks.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-e105-1",
+        "type": "multiple-choice",
+        "question": "Which tool dynamically changes a cell's fill color based on its value?",
+        "options": ["Conditional Formatting", "Data Validation", "Cell Styles", "Format Painter"],
+        "correctAnswer": 0,
+        "explanation": "Conditional Formatting applies rules to change text or background color depending on cell values."
+      }
+    ]
+  },
+  {
+    "id": "excel-106",
+    "moduleId": "excel",
+    "title": "Interactive Charts, Graphs & Sparklines",
+    "description": "Create Column, Bar, Line, and Pie charts, edit chart axes, and insert in-cell Sparkline mini-graphs.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 15,
+    "xpReward": 80,
+    "objectives": [
+      "Select data series and generate Column and Line charts",
+      "Format chart titles, legends, and data labels",
+      "Embed tiny trend Sparklines directly inside grid cells"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Visual Data Visualization",
+        "content": "Charts summarize numeric trends visually for business executive reports. Sparklines render tiny trendlines inside single cells.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-e106-1",
+        "type": "multiple-choice",
+        "question": "Which chart type is best suited for showing proportion parts of a whole 100% total?",
+        "options": ["Pie Chart", "Line Chart", "XY Scatter Chart", "Radar Chart"],
+        "correctAnswer": 0,
+        "explanation": "Pie charts illustrate proportional distribution parts of a single whole total."
+      }
+    ]
+  },
+  {
+    "id": "excel-107",
+    "moduleId": "excel",
+    "title": "PivotTables, Slicers & Data Validation Pro",
+    "description": "Summarize tens of thousands of data rows instantly with PivotTables, visual Slicers, and Drop-down input menus.",
     "difficulty": "Advanced Pro",
     "durationMinutes": 20,
     "xpReward": 100,
     "objectives": [
-      "Create interactive PivotTables to summarize massive datasets",
-      "Apply Data Validation drop-down selection lists",
-      "Record and edit automated VBA Macros"
+      "Create interactive PivotTables to aggregate raw data",
+      "Add visual Slicer buttons for instant filtering",
+      "Restrict cell inputs with Data Validation drop-down menus"
     ],
     "steps": [
       {
@@ -146,12 +242,44 @@
     ],
     "quiz": [
       {
-        "id": "q-e104-1",
+        "id": "q-e107-1",
         "type": "multiple-choice",
-        "question": "Which tool in Excel allows you to restrict cell input to a specific drop-down list of choices?",
-        "options": ["Data Validation", "Conditional Formatting", "Goal Seek", "AutoFilter"],
+        "question": "Which feature provides clickable visual filter buttons for interactive PivotTable dashboards?",
+        "options": ["Slicers", "Sparklines", "Data Validation", "Form Controls"],
         "correctAnswer": 0,
-        "explanation": "Data Validation rules can create dropdown menus and restrict cell inputs."
+        "explanation": "Slicers add visual buttons to filter PivotTable data instantly."
+      }
+    ]
+  },
+  {
+    "id": "excel-108",
+    "moduleId": "excel",
+    "title": "Power Query, Financial Models & VBA Macros Pro",
+    "description": "Automate data ETL pipeline imports using Power Query, build financial forecast models, and write VBA Macros.",
+    "difficulty": "Advanced Pro",
+    "durationMinutes": 25,
+    "xpReward": 120,
+    "objectives": [
+      "Clean and transform raw data using Power Query",
+      "Perform sensitivity analysis with What-If Goal Seek",
+      "Write custom VBA code to automate entire workbook workflows"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Power Query & Automation Engine",
+        "content": "Power Query extracts data from external databases or CSV files, cleans messy rows, and loads refreshed tables into Excel automatically.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-e108-1",
+        "type": "multiple-choice",
+        "question": "Which built-in Excel tool is designed for importing, cleaning, and transforming messy raw datasets?",
+        "options": ["Power Query (Get & Transform)", "Solver", "AutoCorrect", "Spell Check"],
+        "correctAnswer": 0,
+        "explanation": "Power Query is Excel's robust ETL data transformation and cleaning engine."
       }
     ]
   }

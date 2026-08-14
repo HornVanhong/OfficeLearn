@@ -2,37 +2,212 @@
   {
     "id": "access-101",
     "moduleId": "access",
-    "title": "Database Tables & Primary Keys",
-    "description": "Structure tables, define field types, assign primary keys, and build visual queries.",
-    "difficulty": "Intermediate",
-    "durationMinutes": 12,
-    "xpReward": 60,
+    "title": "Relational Database Tables & Data Types",
+    "description": "Understand database tables, primary key IDs, field data types (Short Text, Number, Date/Time), and records.",
+    "difficulty": "Beginner",
+    "durationMinutes": 10,
+    "xpReward": 50,
     "objectives": [
-      "Define tables, fields, and records",
-      "Assign unique Primary Keys",
-      "Run basic Select Queries"
+      "Understand the difference between Excel spreadsheets and relational Access databases",
+      "Define field names and select correct Data Types",
+      "Set up AutoNumber Primary Keys"
     ],
     "steps": [
       {
         "stepNumber": 1,
-        "title": "What is a Relational Database?",
-        "content": "Unlike spreadsheets, databases link multiple tables of records using relational keys to eliminate redundant data.",
+        "title": "Introduction to Databases",
+        "content": "Microsoft Access stores structured records in relational tables. Fields represent columns (e.g. FirstName, Price), and Records represent rows.",
         "type": "text"
       }
     ],
     "quiz": [
       {
-        "id": "q-a101-1",
+        "id": "q-ac101-1",
         "type": "multiple-choice",
-        "question": "What is the purpose of a Primary Key in an Access table?",
+        "question": "What is the role of a 'Primary Key' in a database table?",
         "options": [
-          "Uniquely identify every record in the table without duplicates",
-          "Encrypt the database file",
-          "Sort text alphabetically automatically",
-          "Format currency values"
+          "It uniquely identifies each individual record in a table without duplicates",
+          "It encrypts the table password",
+          "It calculates sums",
+          "It prints the table"
         ],
         "correctAnswer": 0,
-        "explanation": "A Primary Key ensures every row in a database table can be uniquely referenced."
+        "explanation": "Primary keys enforce unique identification for every record (row) in a database table."
+      }
+    ]
+  },
+  {
+    "id": "access-102",
+    "moduleId": "access",
+    "title": "Primary Keys & Table Relationships",
+    "description": "Connect database tables using One-to-Many relationships and Foreign Key links.",
+    "difficulty": "Beginner",
+    "durationMinutes": 12,
+    "xpReward": 60,
+    "objectives": [
+      "Establish One-to-Many relationships between tables",
+      "Enforce Referential Integrity to prevent orphaned records",
+      "Link Customer IDs to Order records"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Relational Integrity",
+        "content": "Relational databases avoid data redundancy by splitting information into related tables (e.g. Customers table linked to Orders table via CustomerID).",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-ac102-1",
+        "type": "multiple-choice",
+        "question": "What does 'Enforce Referential Integrity' prevent in Access table relationships?",
+        "options": [
+          "It prevents creating orders for non-existent customers (orphaned records)",
+          "It prevents opening Access without a password",
+          "It limits the database to 10 rows",
+          "It turns table headers blue"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Referential Integrity ensures child records (Orders) must point to valid parent records (Customers)."
+      }
+    ]
+  },
+  {
+    "id": "access-103",
+    "moduleId": "access",
+    "title": "Visual Query Builder & Data Filtering",
+    "description": "Build Select Queries to filter, search, sort, and calculate data fields visually without code.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 15,
+    "xpReward": 75,
+    "objectives": [
+      "Build Select Queries using the Query Design grid",
+      "Apply criteria filters (e.g., >500 AND City='Phnom Penh')",
+      "Add calculated fields (e.g., Total: [Price]*[Quantity])"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Querying Database Records",
+        "content": "Queries answer specific questions by filtering and combining fields across multiple related tables into dynamic view grids.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-ac103-1",
+        "type": "multiple-choice",
+        "question": "Which query type retrieves and displays specific filtered data rows from one or more tables?",
+        "options": ["Select Query", "Action Query", "Make-Table Query", "Delete Query"],
+        "correctAnswer": 0,
+        "explanation": "Select Queries retrieve and present filtered record subsets based on defined criteria."
+      }
+    ]
+  },
+  {
+    "id": "access-104",
+    "moduleId": "access",
+    "title": "Data Entry Forms & Custom Input Masks",
+    "description": "Design user-friendly data entry forms, add navigation buttons, and enforce phone/date input masks.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 15,
+    "xpReward": 75,
+    "objectives": [
+      "Generate clean Data Entry Forms from tables using Form Wizard",
+      "Add command buttons (Save, Delete, Next Record)",
+      "Configure Input Masks for phone numbers and zip codes"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "User-Friendly Data Entry",
+        "content": "Forms provide an intuitive graphical interface for end users to enter, view, and update database records safely.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-ac104-1",
+        "type": "multiple-choice",
+        "question": "What is the purpose of an 'Input Mask' on a Form field?",
+        "options": [
+          "It restricts input syntax structure (e.g. forcing (###) ###-#### phone number formatting)",
+          "It hides the form from public view",
+          "It exports the form to Excel",
+          "It changes the form background image"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Input Masks guide end users to enter data matching exact visual formatting patterns."
+      }
+    ]
+  },
+  {
+    "id": "access-105",
+    "moduleId": "access",
+    "title": "Automated Reports & External Data Import Pro",
+    "description": "Generate printable business reports with headers/footers and import/export data from Excel spreadsheets.",
+    "difficulty": "Advanced Pro",
+    "durationMinutes": 18,
+    "xpReward": 90,
+    "objectives": [
+      "Create professional grouped summary Reports",
+      "Calculate page subtotals and grand totals",
+      "Import Excel datasets and export Query results to CSV"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Reporting & Data Exchange",
+        "content": "Reports format database records into clean, printable PDFs or hardcopy documents complete with logos and page totals.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-ac105-1",
+        "type": "multiple-choice",
+        "question": "Which Access object is specifically optimized for formatting and printing summary data?",
+        "options": ["Report", "Form", "Macro", "Module"],
+        "correctAnswer": 0,
+        "explanation": "Reports format query or table data specifically for printing or PDF publishing."
+      }
+    ]
+  },
+  {
+    "id": "access-106",
+    "moduleId": "access",
+    "title": "SQL Queries & Database Maintenance Pro",
+    "description": "Write raw SQL statements (SELECT, WHERE, JOIN), execute Action Queries (UPDATE, DELETE), and compact databases.",
+    "difficulty": "Advanced Pro",
+    "durationMinutes": 22,
+    "xpReward": 110,
+    "objectives": [
+      "Inspect and write SQL SELECT statements",
+      "Execute UPDATE and DELETE action queries safely",
+      "Use Compact and Repair Database utility"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Database Optimization & SQL",
+        "content": "SQL (Structured Query Language) is the universal underlying database query language. Compact & Repair reduces file bloat and fixes database errors.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-ac106-1",
+        "type": "multiple-choice",
+        "question": "Why should you regularly run the 'Compact and Repair' tool in Microsoft Access?",
+        "options": [
+          "It defragments the database file, recovers wasted space, and fixes index errors",
+          "It deletes all old records",
+          "It converts Access to Word",
+          "It sends emails automatically"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Compact and Repair shrinks file size and fixes database corruption errors."
       }
     ]
   }

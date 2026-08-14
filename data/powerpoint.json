@@ -45,21 +45,53 @@
   {
     "id": "powerpoint-102",
     "moduleId": "powerpoint",
-    "title": "Visual Themes, Transitions & Animations",
-    "description": "Apply color themes (Sapphire, Emerald, Sunset), slide transition effects (Fade, Push, Morph), and entrance animations.",
-    "difficulty": "Intermediate",
+    "title": "Visual Themes, Color Palettes & Backgrounds",
+    "description": "Apply color themes (Sapphire, Emerald, Sunset), solid/gradient slide backgrounds, and font pairs.",
+    "difficulty": "Beginner",
     "durationMinutes": 12,
-    "xpReward": 65,
+    "xpReward": 60,
     "objectives": [
-      "Apply color themes across all slides",
-      "Configure slide transition effects",
-      "Add entrance animations to bullet points"
+      "Select pre-designed slide themes",
+      "Apply gradient background styles",
+      "Match font color palettes across all slides"
     ],
     "steps": [
       {
         "stepNumber": 1,
-        "title": "Enhancing Visual Appeal",
-        "content": "Themes give your presentation a unified design. Transitions control how slides switch, and animations reveal bullet points step by step.",
+        "title": "Visual Design Themes",
+        "content": "Themes define the overall color scheme, background styling, and font choices for your pitch deck with one click.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-p102-1",
+        "type": "multiple-choice",
+        "question": "Which ribbon tab allows you to change the global Theme color scheme of a PowerPoint file?",
+        "options": ["Design Tab", "Home Tab", "Insert Tab", "Transitions Tab"],
+        "correctAnswer": 0,
+        "explanation": "The Design tab houses global visual themes, color variants, and background styles."
+      }
+    ]
+  },
+  {
+    "id": "powerpoint-103",
+    "moduleId": "powerpoint",
+    "title": "Slide Transitions (Morph, Push, Fade)",
+    "description": "Configure slide switching effects including Fade, Push, Wipe, and seamless 3D Morph transitions.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 12,
+    "xpReward": 65,
+    "objectives": [
+      "Apply slide transition effects",
+      "Use Morph for smooth object movement across slides",
+      "Adjust transition timing and sound effects"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Seamless Motion with Morph",
+        "content": "Morph transition seamlessly animates matching objects, shapes, and images between consecutive slides.",
         "type": "text"
       },
       {
@@ -76,32 +108,101 @@
     ],
     "quiz": [
       {
-        "id": "q-p102-1",
+        "id": "q-p103-1",
         "type": "multiple-choice",
-        "question": "What is the primary difference between a Slide Transition and an Animation in PowerPoint?",
+        "question": "What makes the Morph transition special in PowerPoint?",
         "options": [
-          "Transitions occur between entire slides; Animations apply to individual elements within a slide",
-          "Transitions change colors; Animations change fonts",
-          "Transitions only work on video files",
-          "Animations only work when printing"
+          "It automatically tracks and smoothly animates matching objects between two slides",
+          "It changes text font size",
+          "It converts slides to PDF",
+          "It plays background music"
         ],
         "correctAnswer": 0,
-        "explanation": "Transitions control the motion between slides, while animations control elements inside a slide."
+        "explanation": "Morph analyzes object shapes and positions across slides, animating movement fluidly."
       }
     ]
   },
   {
-    "id": "powerpoint-103",
+    "id": "powerpoint-104",
     "moduleId": "powerpoint",
-    "title": "Slide Master, Custom Motion & Presenter View Pro",
-    "description": "Master Slide Master design templates, custom motion path animations, and dual-monitor Presenter View.",
+    "title": "Entrance, Emphasis & Exit Animations",
+    "description": "Animate individual text bullet points, chart elements, and graphic icons step-by-step.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 15,
+    "xpReward": 75,
+    "objectives": [
+      "Apply Entrance animations (Appear, Fly In, Zoom)",
+      "Configure Animation Pane sequence ordering",
+      "Trigger animations 'On Click' or 'After Previous'"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Step-by-step Bullet Point Animations",
+        "content": "Animating bullet points keeps your audience focused on your active talking point instead of reading ahead.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-p104-1",
+        "type": "multiple-choice",
+        "question": "Which tool pane allows you to reorder, time, and inspect all animations on a slide?",
+        "options": ["Animation Pane", "Selection Pane", "Navigation Pane", "Format Shape"],
+        "correctAnswer": 0,
+        "explanation": "The Animation Pane displays the complete sequence timeline of all animated objects."
+      }
+    ]
+  },
+  {
+    "id": "powerpoint-105",
+    "moduleId": "powerpoint",
+    "title": "SmartArt, Diagrams & Infographics",
+    "description": "Convert plain bullet points into visual SmartArt flowcharts, hierarchy org charts, and infographics.",
+    "difficulty": "Intermediate",
+    "durationMinutes": 15,
+    "xpReward": 75,
+    "objectives": [
+      "Convert text lists to visual SmartArt graphics",
+      "Design organizational charts and process steps",
+      "Insert editable vector icons and 3D models"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Visual Storytelling with SmartArt",
+        "content": "SmartArt transforms text lists into professionally designed visual diagrams, timelines, and organizational hierarchies.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-p105-1",
+        "type": "multiple-choice",
+        "question": "How can you convert a bulleted text list into a diagram quickly in PowerPoint?",
+        "options": [
+          "Right-click text -> Convert to SmartArt",
+          "Delete the text and draw circles",
+          "Export as HTML",
+          "Use WordArt"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Right-clicking any bulleted list offers instant 'Convert to SmartArt' diagram layouts."
+      }
+    ]
+  },
+  {
+    "id": "powerpoint-106",
+    "moduleId": "powerpoint",
+    "title": "Slide Master & Corporate Branding Templates Pro",
+    "description": "Master Slide Master design templates, logo placement, custom font defaults, and layout placeholders.",
     "difficulty": "Advanced Pro",
-    "durationMinutes": 18,
-    "xpReward": 95,
+    "durationMinutes": 20,
+    "xpReward": 100,
     "objectives": [
       "Customize global layouts using Slide Master view",
-      "Build custom animation motion paths",
-      "Utilize Presenter View with private speaker notes"
+      "Position corporate logos on all slides automatically",
+      "Save custom PowerPoint template (.potx) files"
     ],
     "steps": [
       {
@@ -113,12 +214,44 @@
     ],
     "quiz": [
       {
-        "id": "q-p103-1",
+        "id": "q-p106-1",
         "type": "multiple-choice",
         "question": "Where can you insert a company logo so it appears automatically on every slide?",
         "options": ["View Tab -> Slide Master", "Insert Tab -> Shapes", "Design Tab -> Background", "File Tab -> Options"],
         "correctAnswer": 0,
         "explanation": "Editing the Slide Master propagates changes globally to all dependent slide layouts."
+      }
+    ]
+  },
+  {
+    "id": "powerpoint-107",
+    "moduleId": "powerpoint",
+    "title": "Video Export, Voiceover & Presenter Mode Pro",
+    "description": "Record audio slide voiceovers, utilize dual-screen Presenter View, and export presentations as 4K MP4 videos.",
+    "difficulty": "Advanced Pro",
+    "durationMinutes": 22,
+    "xpReward": 110,
+    "objectives": [
+      "Record slide show narration voiceovers with laser pointer",
+      "Use Presenter View to view speaker notes during presentation",
+      "Export presentations as MP4 video files"
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Recording & Exporting Pitch Decks",
+        "content": "Record Slide Show records your voice, laser pointer movements, and webcam video, producing a standalone MP4 video presentation.",
+        "type": "text"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q-p107-1",
+        "type": "multiple-choice",
+        "question": "Which view mode displays your speaker notes and upcoming slide preview on your laptop while projecting full-screen slides to the audience?",
+        "options": ["Presenter View", "Reading View", "Slide Sorter View", "Outline View"],
+        "correctAnswer": 0,
+        "explanation": "Presenter View provides speaker notes, timers, and next slide previews on your private screen."
       }
     ]
   }
